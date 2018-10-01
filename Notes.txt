@@ -1,0 +1,39 @@
+Organization:
+ Overview
+ - BWT
+ -- Cited as basis for order maintenance policing
+ -- Outline of theory and graphical description
+ - BWT vs Social Disorg
+
+ Timeline and Labor
+
+ Experiments: (Highlight paths or boxes on diagrams)
+ - Lost Letter
+ -- 2,938 letters, 8 each type (10 additional), 122 tracts
+ -- Tabular Results
+ -- Letter Drop Map for Effect
+ - Mailbox
+ -- 3,671 participants, (1870 C, 1801 T), 20 tracts
+ -- Tabular Results
+ - Littering
+ -- Differential activation of social control against norm-violators (flagrant littering) by sex, race, and disorder.
+ -- Boat Model? Causal from sex, race, disorder, non-causal from area CE
+ -- 568 trials, (268 C, 273 T), 12 tracts
+ -- Tabular Results
+ - LitterCam
+ - Drive-By Littering, 24 drops
+
+ Funding Sources
+ - NSF
+ - RRF
+
+
+Presentation Ideas:
+ -
+ - BG Image: Dropped letter?
+ - Images
+ -- Experiment Map
+ -- Letters
+ -- Actual Drop
+ -- Treatment Condition
+ -- LitterCam
