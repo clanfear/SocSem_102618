@@ -4,10 +4,6 @@
     <title>SNCP Field Experiments</title>
     <meta charset="utf-8">
     <meta name="author" content="Chuck Lanfear" />
-    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
-    <script src="libs/viz/viz.js"></script>
-    <link href="libs/DiagrammeR-styles/styles.css" rel="stylesheet" />
-    <script src="libs/grViz-binding/grViz.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
@@ -27,21 +23,52 @@ class: center, middle, inverse, title-slide
 
 
 
+Outline Slide
+
+---
+
+# Broken Windows
+
+Wilson &amp; Kelling (1982) describe a system where disorder (1) increases crime by 
+signalling low social control and (2) decreases social control by reducing willingness to use public spaces.
+
+.pull-left60[
+
+![Broken Windows](https://clanfear.github.io/SocSem_102618/img/BWT.svg)
+
+]
+
+.pull-right40[
+
+* Disorder signals low guardianship which increases offending.
+
+* Disorder constrains social relations which impedes control.
+
+* Social control inhibits both disorder and crime.
+]
+
+---
+
+# Collective Efficacy
+
+Sampson &amp; Raudenbush (1999) contend that disorder and crime are both manifestations of low social control.
+
+.pull-left60[
+![Broken Windows](https://clanfear.github.io/SocSem_102618/img/CE.svg)
+]
+
+.pull-right40[
+* Disorder and crime are products of low social control.
+
+* Disorder has no direct impact on crime or social control.
+]
 
 
-```r
-DiagrammeR::grViz("
- digraph rmarkdown {
- Disorder -&gt; SocControl
- SocControl  -&gt; Disorder
- SocControl -&gt; Crime
- Disorder -&gt; Crime
- }
-", height=200)
-```
 
-<div id="htmlwidget-4291c53fa3a0e63ed88a" style="width:504px;height:200px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-4291c53fa3a0e63ed88a">{"x":{"diagram":"\n digraph rmarkdown {\n Disorder -> SocControl\n SocControl  -> Disorder\n SocControl -> Crime\n Disorder -> Crime\n }\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+*These represent testable constraints on Broken Windows.*
+
+
+---
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
