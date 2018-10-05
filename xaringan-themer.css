@@ -34,8 +34,8 @@ h1, h2, h3 {
 .remark-slide-content {
   background-color: #FFFFFF;
   font-size: 20px;
-  
-  
+  background-image: url(https://clanfear.github.io/SocSem_102618/img/UWSocBG1.svg);
+  background-size: cover;
   
   padding: 1em 4em 1em 4em;
 }
