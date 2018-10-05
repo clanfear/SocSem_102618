@@ -93,9 +93,9 @@ a, a > code {
 }
 .title-slide {
   background-color: #342c5c;
-  background-image: url(https://raw.githubusercontent.com/clanfear/CSSS508/master/Lectures/Week1/img/title_slide_img.png);
-  background-size: contain;
-  background-position: bottom;
+  
+  
+  
 }
 .title-slide .remark-slide-number {
   display: none;
@@ -225,4 +225,7 @@ a {
 }
 body {
   line-height: 1.4;
+}
+.inverse {
+  background-image: url(https://clanfear.github.io/SocSem_102618/img/UWSocBG1_white.svg);
 }
