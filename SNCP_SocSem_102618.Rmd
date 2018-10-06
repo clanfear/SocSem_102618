@@ -56,9 +56,13 @@ csss508css <- list(
      "a" = list("text-decoration" = "underline"),
      ".inverse a" = list("color" = "#cbd3a3"),
      "body" = list("line-height" = "1.4"),
-     ".inverse" = list("background-image" = "url(https://clanfear.github.io/SocSem_102618/img/UWSocBG1_white.svg)")
+     ".inverse" = list("background-image" = "url(https://clanfear.github.io/SocSem_102618/img/UWSocBG1_white.svg)"),
+     ".centernote" = list(
+        "text-align" = "center",
+        "position" = "fixed",
+        "left" = "20%",
+        "bottom" = "3em")
     )
-
 mono_accent(base_color = "#342c5c",
             code_font_google = google_font("Fira Mono"),
             header_font_google = google_font("Quattrocento"),
@@ -110,7 +114,11 @@ signalling low social control and (2) decreases social control by reducing willi
 * Social control inhibits both disorder and crime.
 ]
 
-Reciprocal relationships 
+.centernote[
+*Reciprocal relationship (B,C) defies observational tests.*
+]
+
+
 
 ---
 
@@ -123,15 +131,16 @@ Sampson & Raudenbush (1999) contend that disorder and crime are both manifestati
 ]
 
 .pull-right40[
+
 * Disorder and crime are products of low social control.
 
 * Disorder has no direct impact on crime or social control.
+
 ]
 
-
-
-*These represent testable constraints on Broken Windows.*
-
+.centernote[
+*(A,C) represent testable constraints on Broken Windows.*
+]
 
 ---
 class: inverse
@@ -143,15 +152,23 @@ class: inverse
 This project links field experiments embedded in Seattle neighborhoods 
 to data from the 2002-2003 Seattle Neighborhoods and Crime Survey.
 
+--
+
 Our goal is estimation of the parameters that connect disorder, 
 crime, and social control.
 
-ANNOTATED IMAGE HERE
-Depicts where each experiment fits in
+--
+
+This subjects both Broken Windows and the Collective Efficacy counter-hypothesis
+to formal tests.
+
+--
+
+Annotated image here depicting where each experiment fits in
 
 ---
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, dev='svg'}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, dev='svg', out.width='78%'}
 exp_df <- expand.grid(year = 2014:2017,
                       experiment = c("Lost Letter", "Mailbox", "Littering\nIntervention", "Litter\nClean-Up")) %>%
   mutate(active = case_when(
