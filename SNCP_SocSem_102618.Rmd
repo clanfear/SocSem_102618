@@ -1,7 +1,7 @@
 ---
 title: "SNCP Field Experiments"
 subtitle: "2014 - 2017"  
-author: "Chuck Lanfear<br>Lindsey Beach"
+author: "Ross Matsueda<br>Chuck Lanfear<br>Lindsey Beach"
 date: 'Oct 26, 2018'
 output:
   xaringan::moon_reader:
