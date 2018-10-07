@@ -220,12 +220,6 @@ ggplot(exp_df, aes(x=year, y=experiment, fill=factor(active))) +
 * Varying the sender address allows for test of pro-social intervention sensitivity to contextual variation.
 ]
 
-*H = F&ast;G* therefore *G > H* for all positive *F,G*
-
-*The correlation H is thus a lower bound on the true correlation between letter returns and unobserved collective efficacy.*
-
- 
-
 ---
 
 # Results
@@ -269,6 +263,10 @@ ggplot(exp_df, aes(x=year, y=experiment, fill=factor(active))) +
 ---
 
 # Results
+
+---
+
+# Litter Clean-Up
 
 ---
 
