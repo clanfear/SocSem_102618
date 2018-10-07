@@ -101,7 +101,7 @@ signalling low social control and (2) decreases social control by reducing willi
 
 .pull-left60[
 
-![Broken Windows](https://clanfear.github.io/SocSem_102618/img/BWT.svg)
+![Broken Windows](https://clanfear.github.io/SocSem_102618/img/broken_windows.svg)
 
 ]
 
@@ -127,7 +127,7 @@ signalling low social control and (2) decreases social control by reducing willi
 Sampson & Raudenbush (1999) contend that disorder and crime are both manifestations of low social control.
 
 .pull-left60[
-![Broken Windows](https://clanfear.github.io/SocSem_102618/img/CE.svg)
+![Collective Efficacy](https://clanfear.github.io/SocSem_102618/img/collective_efficacy.svg)
 ]
 
 .pull-right40[
@@ -164,6 +164,10 @@ to formal tests.
 
 --
 
+This project represents over 2000 person-hours of field work spread over four summers.
+
+---
+
 Annotated image here depicting where each experiment fits in
 
 ---
@@ -199,3 +203,65 @@ ggplot(exp_df, aes(x=year, y=experiment, fill=factor(active))) +
         axis.text.y = element_text(hjust = 0.5),
         panel.grid = element_blank())
 ```
+
+---
+
+# Lost Letter
+
+Based on Sampson's (XXXX) application of Milgram (XXXX) to obtain updated measure of collective efficacy.
+
+Returning a lost letter is a low-risk pro-social intervention.
+
+Varying the sender address allows for test of pro-social intervention sensitivity to contextual variation.
+
+---
+
+# Results
+
+---
+
+# Mailbox Experiment
+
+.pull-left[
+![Mailbox Experiment](https://clanfear.github.io/SocSem_102618/img/mailbox_experiment.svg)
+]
+
+.pull-right[
+* Test of direct effect of disorder on norm violation.
+
+* Test of direct effect of disorder on low-risk prosocial intervention.
+
+* Capture correlation between collective efficacy and norm violation.
+]
+
+---
+
+# Results
+
+---
+
+# Littering Intervention
+
+.pull-left[
+![Mailbox Experiment](https://clanfear.github.io/SocSem_102618/img/littering_intervention.svg)
+]
+
+.pull-right[
+* Test of direct effect of disorder on sanctioning.
+
+* Test of effect of norm violation context on sanctioning.
+
+* Captures correlation between collective efficacy and sanctioning.
+]
+
+---
+
+# Results
+
+---
+
+# Synthesis
+
+---
+
+# Acknowledgements
