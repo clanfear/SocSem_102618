@@ -143,28 +143,42 @@ Sampson & Raudenbush (1999) contend that disorder and crime are both manifestati
 ]
 
 ---
+
+Something on prosocial behavior?
+
+---
+
+# Research Questions
+
+Our goal is examination of the micro-processes that underlie Broken Windows and Collective Efficacy
+
+--
+
+Does disorder increase norm-violations and crime as suggested by Broken Windows?
+
+* Does disorder also inhibit prosocial behavior?
+
+--
+
+Or is this relationship spurious once collective efficacy is controlled, as suggest by Sampson?
+
+* Is activation of collective efficacy conditional on offender characteristics?
+* Does disorder moderate collective efficacy?
+
+---
+
 class: inverse
 
 # Project Structure and Timeline
 
 ---
 
-This project links field experiments embedded in Seattle neighborhoods 
+This study links field experiments embedded in Seattle neighborhoods 
 to data from the 2002-2003 Seattle Neighborhoods and Crime Survey.
 
 --
 
-Our goal is estimation of the parameters that connect disorder, 
-crime, and social control.
-
---
-
-This subjects both Broken Windows and the Collective Efficacy counter-hypothesis
-to formal tests.
-
---
-
-This project represents over 2000 person-hours of field work spread over four summers.
+The results represent the result of over 2000 person-hours of field work spread over four summers.
 
 ---
 
@@ -176,18 +190,25 @@ Annotated image here depicting where each experiment fits in
 exp_df <- expand.grid(year = 2014:2017,
                       experiment = c("Lost Letter", "Mailbox", "Littering\nIntervention", "Litter\nClean-Up")) %>%
   mutate(active = case_when(
-    experiment=="Mailbox" ~ 1,
-    experiment=="Lost Letter" & year==2015 ~ 1,
+    experiment=="Mailbox" & year==2014 ~ 1,
+    experiment=="Mailbox" & year==2015 ~ 1,    
+    experiment=="Mailbox" & year==2016 ~ 1,
+    experiment=="Mailbox" & year==2017 ~ 1,
+    experiment=="Lost Letter" & year==2015 ~ 2,
+    experiment=="Lost Letter" & year==2016 ~ 1,
     experiment=="Littering\nIntervention" & year==2017 ~ 1,
-    experiment=="Litter\nClean-Up" & year==2017 ~1,
-    TRUE ~ 0
+    experiment=="Litter\nClean-Up" & year==2016 ~ 2,
+    experiment=="Litter\nClean-Up" & year==2017 ~ 1,
+    TRUE ~ as.numeric(NA)
   ), trials = case_when(
     experiment=="Mailbox" & year==2014 ~ 130,
     experiment=="Mailbox" & year==2015 ~ 141,    
     experiment=="Mailbox" & year==2016 ~ 104,
     experiment=="Mailbox" & year==2017 ~ 114,
-    experiment=="Lost Letter" & year==2015 ~ 2938,
+    experiment=="Lost Letter" & year==2015 ~ 432,
+    experiment=="Lost Letter" & year==2016 ~ 2938,
     experiment=="Littering\nIntervention" & year==2017 ~ 568,
+    experiment=="Litter\nClean-Up" & year==2016 ~ 6,
     experiment=="Litter\nClean-Up" & year==2017 ~ 21,
     TRUE ~ as.numeric(NA)
 )) %>%
@@ -197,7 +218,7 @@ ggplot(exp_df, aes(x=year, y=experiment, fill=factor(active))) +
   xlab("") + ylab("") + ggtitle("Experiment Timeline", subtitle= "Number of trials") + 
   geom_tile() + 
     geom_text(size=6, color="#cbd3a3", hjust=0.5, aes(label=trials)) +
-  scale_fill_manual(values=c("1" = "#342c5c", "0" = "white")) +
+  scale_fill_manual(values=c("2" = "#455f90", "1" = "#342c5c", "0" = "white")) +
   theme_minimal(base_size=21) + 
   theme(legend.position = "none", axis.text.x = element_text(angle=45, hjust=1),
         axis.text.y = element_text(hjust = 0.5),
@@ -213,7 +234,7 @@ ggplot(exp_df, aes(x=year, y=experiment, fill=factor(active))) +
 ]
 
 .pull-right[
-* Based on Sampson's (XXXX) application of Milgram (XXXX) to obtain updated measure of collective efficacy.
+* Based on Sampson's (2012) application of the Lost Letter Technique (Milgram et al. 1965) to obtain updated measure of collective efficacy.
 
 * Returning a lost letter is a low-risk pro-social intervention.
 
@@ -275,3 +296,27 @@ ggplot(exp_df, aes(x=year, y=experiment, fill=factor(active))) +
 ---
 
 # Acknowledgements
+
+This project was made possible by the participation of graduate student researchers and substantial grant funding.
+
+.pull-left[
+### Researchers
+
+Terrence Pope
+
+Kate O'Neill
+
+Anquinette Barry
+
+Chris Hess
+
+John Leverso
+]
+
+.pull-right[
+### Funding
+
+National Science Foundation
+
+UW Royalty Research Fund
+]
