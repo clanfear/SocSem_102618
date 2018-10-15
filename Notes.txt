@@ -1,3 +1,26 @@
+Abstract
+
+Disorder and Social Control
+
+Neighborhood disorder is highly-correlated with crime rates, which has led to a significant controversy in the social sciences
+over the proper interpretation of the correlation. Does the correlation reflect a causal relationship, in
+which social and physical disorder increases the likelihood of norm-violations and crime, as broken
+windows theory suggests? Or does the correlation reflect a spurious relationship, in which the
+correlation disappears when the confounding variable, neighborhood collective efficacy, is
+controlled? The answer to this question has important theoretical and policy implications. This
+project examines this controversy using mixed methods: field experiments embedded in
+neighborhoods that are diverse on measures from the U.S. Census and the Seattle Neighborhoods
+and Crime Survey.
+
+Other things I am talking about:
+- Timeline and labor involved
+- Results
+- Prosocial behavior
+
+Things I could talk about but wasn't planning on:
+- SEM replications of S&R 1999
+-----------------------------
+
 Organization:
  Overview
  - BWT
