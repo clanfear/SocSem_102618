@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -38,16 +38,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
+     inkscape:window-width="3840"
+     inkscape:window-height="2004"
      id="namedview415"
      showgrid="false"
      inkscape:snap-text-baseline="false"
      inkscape:zoom="1.3712138"
-     inkscape:cx="104.24986"
+     inkscape:cx="-70.048269"
      inkscape:cy="247.82564"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-x="-16"
+     inkscape:window-y="-16"
      inkscape:window-maximized="1"
      inkscape:current-layer="g411" />
   <g
@@ -535,17 +535,15 @@
        x="340.94849"
        y="127.61227"
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <text
-       xml:space="preserve"
+    <g
+       aria-label="+"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="342.50278"
-       y="150.04129"
-       id="text4229"><tspan
-         sodipodi:role="line"
-         id="tspan4227"
-         x="342.50278"
-         y="150.04129"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">+</tspan></text>
+       id="text4229">
+      <path
+         d="m 365.40903,141.10379 h -8.51563 v 8.51563 h -2.59375 v -8.51563 h -8.51562 v -2.5 h 8.51562 v -8.51562 h 2.59375 v 8.51562 h 8.51563 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="path2691" />
+    </g>
     <g
        id="g5079"
        transform="translate(160.90115,289.61984)">

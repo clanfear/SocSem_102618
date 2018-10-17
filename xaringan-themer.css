@@ -232,6 +232,8 @@ body {
 .centernote {
   text-align: center;
   position: fixed;
-  left: 20%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   bottom: 3em;
 }

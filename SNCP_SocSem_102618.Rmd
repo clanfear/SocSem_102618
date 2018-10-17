@@ -60,7 +60,9 @@ csss508css <- list(
      ".centernote" = list(
         "text-align" = "center",
         "position" = "fixed",
-        "left" = "20%",
+        "left" = "0",
+        "right" = "0",
+        "margin" = "0 auto",
         "bottom" = "3em")
     )
 mono_accent(base_color = "#342c5c",
@@ -75,7 +77,7 @@ mono_accent(base_color = "#342c5c",
 
 1. Theoretical Framework
 
-2. Project Structure and Timeline
+2. Project Structure
 
 3. Experiments
 
@@ -100,7 +102,7 @@ signalling low social control and (2) decreases social control by reducing willi
 
 .pull-left60[
 
-![Broken Windows](https://clanfear.github.io/SocSem_102618/img/broken_windows.svg)
+![Broken Windows](https://clanfear.github.io/SocSem_102618/img/broken_windows_pretty.svg)
 
 ]
 
@@ -113,56 +115,66 @@ signalling low social control and (2) decreases social control by reducing willi
 ]
 
 .centernote[
-*Reciprocal relationships (B,C; E,D) defy observational tests.*
+*This model is under-identified without instruments or manipulations*
 ]
-
----
-# Evidence
-
-Keizer, Lindenberg, and Steg (2008)
-
-Skogan (1990)
-
-
 
 ---
 
 # Collective Efficacy
 
-Sampson & Raudenbush (1999) contend that disorder and crime are both manifestations of low collective efficacy---the capacity for informal social control.
+[Sampson & Raudenbush (1999)](https://doi.org/10.1086/210356) contend that disorder and crime are both manifestations of low collective efficacy---the capacity for informal social control.
 
 .pull-left60[
-![Collective Efficacy](https://clanfear.github.io/SocSem_102618/img/collective_efficacy.svg)
+![Collective Efficacy](https://clanfear.github.io/SocSem_102618/img/collective_efficacy_pretty.svg)
 ]
 
 .pull-right40[
 * A: Disorder has no direct impact on crime.
 
-* B, D: Disorder and crime are products of low social control, which is exogenous (C, E).
+* B, D: Disorder and crime are products of low collective efficacy---social control---which is exogenous (C, E).
 ]
 
 .centernote[
-*(A,C,E) represent testable constraints on Broken Windows.*
+*A, C, and E represent testable constraints on Broken Windows.*
 ]
 ---
-# Evidence
+# Key Literature
 
-Sampson & Raudenbush (1999)
+.pull-left[
+[**Sampson & Raudenbush (1999)**](https://doi.org/10.1086/210356)
 
-Effect of disorder on crime absent once controlling for collective efficacy.
+* Neighborhood instrumental variables model
 
-Controlled for Crime -> Collective Efficacy (E)
+* Effect of disorder on crime (A) absent once controlling for collective efficacy (B,D)
 
-Assumption no effect of Disorder -> Collective Efficacy (C)
+* Control for effect of crime on collective efficacy (E), but assume no effect of disorder on collective efficacy (C)
+]
 
-## Counterpoint
+.pull-right[
+[**Keizer et al. (2008)**](https://doi.org/10.1126/science.1161405)
 
-Hipp (2016)
-Xu, Fiedler, and Flaming (2005)
+* Multiple field experiments in single sites
+
+* Strong causal effect of disorder on norm violation (A)
+
+* No contextual controls
+
+* No examination of indirect pathways or reciprocal effects
+]
+
+.centernote[
+*How do we reconcile these results?*
+]
 
 ---
 
-Something on prosocial behavior?
+# Prosocial Behavior
+
+Engaging in social control is a prosocial behavior
+
+Collective efficacy predicts non-sanctioning prosocial behavior—returning lost letters, providing CPR (Sampson, 2008)
+
+Broken windows implies disorder attenuates prosocial action through social withdrawal
 
 ---
 
@@ -283,7 +295,6 @@ mailbox_tracts <- c("02700", "08900", "09200", "06800", "07500", "09100", "02800
 littering_tracts <- c("00100", "01701", "02600", "04700", "06800", "07100", "07500", 
                       "08900", "09100", "09701", "10402", "11402")
 
-# KC_tract_2010 <- elide(WA_tract_2010[WA_tract_2010@data$NHGISCTY=="0330",], rotate=-16)
 KC_tract_2010 <- elide(WA_tract_2010[WA_tract_2010@data$COUNTYFP10=="033",], rotate=-16)
 seattle_tracts <- st_as_sf(KC_tract_2010[as.numeric(str_sub(KC_tract_2010@data$GISJOIN, -5,-1)) %in% 100:12100, "GISJOIN"]) %>%
   mutate(tract = str_sub(GISJOIN, -5,-1)) %>%
