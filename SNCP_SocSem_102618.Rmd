@@ -109,9 +109,9 @@ signalling low social control and (2) decreases social control by reducing willi
 .pull-right40[
 * A: Disorder signals low guardianship which increases offending.
 
-* C, E: Disorder and crime constrain social relations and impede control.
+* B, E: Disorder and crime constrain social relations and impede control.
 
-* B, D: Social control inhibits both disorder and crime.
+* C, D: Social control inhibits both disorder and crime.
 ]
 
 .centernote[
@@ -122,7 +122,7 @@ signalling low social control and (2) decreases social control by reducing willi
 
 # Collective Efficacy
 
-[Sampson & Raudenbush (1999)](https://doi.org/10.1086/210356) contend that disorder and crime are both manifestations of low collective efficacy---the capacity for informal social control.
+[Sampson & Raudenbush (1999)](https://doi.org/10.1086/210356) contend that disorder and crime are both manifestations of low collective efficacy—the capacity for informal social control.
 
 .pull-left60[
 ![Collective Efficacy](https://clanfear.github.io/SocSem_102618/img/collective_efficacy_pretty.svg)
@@ -131,7 +131,7 @@ signalling low social control and (2) decreases social control by reducing willi
 .pull-right40[
 * A: Disorder has no direct impact on crime.
 
-* B, D: Disorder and crime are products of low collective efficacy---social control---which is exogenous (C, E).
+* C, D: Disorder and crime are products of low collective efficacy—social control—which is exogenous (B, E).
 ]
 
 .centernote[
@@ -172,7 +172,7 @@ signalling low social control and (2) decreases social control by reducing willi
 
 Engaging in social control is a prosocial behavior
 
-Collective efficacy predicts non-sanctioning prosocial behavior—returning lost letters, providing CPR (Sampson, 2008)
+Collective efficacy also predicts non-sanctioning prosocial behavior—returning lost letters, providing CPR (Sampson, 2008)
 
 Broken windows implies disorder attenuates prosocial action through social withdrawal
 
@@ -199,7 +199,7 @@ Or is this relationship spurious once collective efficacy is controlled, as sugg
 
 class: inverse
 
-# Project Structure and Timeline
+# Project Structure
 
 ---
 
@@ -212,7 +212,7 @@ The results represent the result of over 2000 person-hours of field work spread 
 
 ---
 
-Annotated image here depicting where each experiment fits in
+![Experiments](https://clanfear.github.io/SocSem_102618/img/experiments_pretty.svg)
 
 ---
 
