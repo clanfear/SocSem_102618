@@ -9,7 +9,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="761.0437"
+   width="828.00317"
    height="483.05798"
    version="1.1"
    id="svg413"
@@ -57,7 +57,7 @@
      showgrid="false"
      inkscape:snap-text-baseline="false"
      inkscape:zoom="2.7424276"
-     inkscape:cx="339.7816"
+     inkscape:cx="312.75415"
      inkscape:cy="223.76178"
      inkscape:window-x="-16"
      inkscape:window-y="-16"
@@ -68,7 +68,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0" />
   <g
-     transform="translate(97.208188,-13.268579)"
+     transform="translate(69.633776,-13.268579)"
      lucid:page-tab-id="0_0"
      id="g411">
     <path
@@ -742,13 +742,20 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:Quattrocento;letter-spacing:0px;word-spacing:0px;fill:#905145;fill-opacity:1;stroke:none"
-       x="464.01053"
-       y="397.72598"
+       x="608.77277"
+       y="362.72049"
        id="text2754"><tspan
          sodipodi:role="line"
-         id="tspan2752"
-         x="464.01053"
-         y="397.72598">Littering</tspan></text>
+         x="608.77277"
+         y="362.72049"
+         id="tspan8004"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:0px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         dy="20">Litter</tspan><tspan
+         sodipodi:role="line"
+         x="608.77277"
+         y="429.38715"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:0px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         id="tspan8008">Intervention</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:Quattrocento;letter-spacing:0px;word-spacing:0px;fill:#cbd3a3;fill-opacity:1;stroke:none"
@@ -762,13 +769,20 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:Quattrocento;letter-spacing:0px;word-spacing:0px;fill:#342c5c;fill-opacity:1;stroke:none"
-       x="-100.08819"
-       y="278.67465"
+       x="42.486221"
+       y="261.90118"
        id="text2762"><tspan
          sodipodi:role="line"
          id="tspan2760"
-         x="-100.08819"
-         y="278.67465">Clean-Up</tspan></text>
+         x="42.486221"
+         y="261.90118"
+         dy="20"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle">Litter</tspan><tspan
+         sodipodi:role="line"
+         x="42.486225"
+         y="328.56784"
+         id="tspan8010"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle">Clean-Up</tspan></text>
     <circle
        style="opacity:1;fill:none;fill-opacity:1;stroke:#342c5c;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path6473"
@@ -800,9 +814,10 @@
        r="24" />
     <path
        style="fill:none;stroke:#342c5c;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 232.82852,249.27644 -99.91148,16.40882"
+       d="M 232.82852,249.27644 118.69606,274.80127"
        id="path7994"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#cbd3a3;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 358.26483,396.22654 v 37.92261"
@@ -810,9 +825,10 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#905145;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 540.22041,320.01669 17.50274,41.93365"
+       d="m 557.72315,311.26532 44.48614,30.26515"
        id="path7998"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#458490;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 354.98307,84.458966 V 58.569494"
@@ -820,7 +836,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#905145;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 560.64028,409.3536 v 66.7292 c 0,9.3591 -6.56353,17.98893 -17.50274,18.23202 H 204.75121 c -9.84529,0.36464 -18.9613,-7.65745 -19.69058,-20.78451 V 325.12165"
+       d="m 602.93857,434.14915 v 41.93365 c 0,9.3591 -6.56353,17.98893 -17.50274,18.23202 H 204.75121 c -9.84529,0.36464 -18.9613,-7.65745 -19.69058,-20.78451 V 325.12165"
        id="path8002"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
