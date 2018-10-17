@@ -19,6 +19,15 @@ Other things I am talking about:
 
 Things I could talk about but wasn't planning on:
 - SEM replications of S&R 1999
+
+Ross: "I would reserve timeline and labor to a subordinate position—discuss if there is time beyond the design and results.  The SEM replication may be too much.  I would map out the experiments and see if there is time left for the replication.  One possibility:  you probably want to review the S&R results early on, and then you could in passing say, we have tried to replicate this, but get different results (and you’re happy to talk about it in the discussion).  Then include a slide of more details for the end, if someone asks about it."
+
+Lindsey: "On slides where you have a path diagram and corresponding points on the right-side column, it would be helpful to list the path you are referring to with its letter label (when appropriate). It will help the viewer keep up with the presentation.
+
+Consider making the Social Control box on the Broken Windows and Collective Efficacy slides "Social Control/Collective Efficacy", since it might not be clear to newbies or non-crim people that they are referring to the same concept. When you are discussing the Collective Efficacy slide it may also be useful to introduce the concept of pro-social behavior (as it's the measure we use later to capture CE - I guess this suggestion gets into the complication that CE is a neighborhood level measure and sanctioning is an individual level behavior [which might be something useful to clarify at some point?). I also noticed
+
+On the project structure and timeline page I think it might be helpful to include 1 or 2 broader research questions. You include the goal of the project and the formal hypotheses, but they come off as pretty technical. I think there are pretty clear research questions listed in the NSF grant? Also, on this slide it might be useful to include a geographic scope of the study (mostly to put it in context with other, similar projects and highlight that our's is the biggest of its kind). Alternatively, you could mention the number of neighborhoods on the specific experiment slides? I think it would be useful to situate our project in the overall landscape of these types of experiments and CE research. Maybe something along those lines would make sense at the very beginning?"
+
 -----------------------------
 
 Organization:

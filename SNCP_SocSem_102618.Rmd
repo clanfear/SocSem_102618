@@ -86,7 +86,6 @@ mono_accent(base_color = "#342c5c",
    
 4. Synthesis
 
-
 ---
 class: inverse
 
@@ -106,17 +105,23 @@ signalling low social control and (2) decreases social control by reducing willi
 ]
 
 .pull-right40[
+* A: Disorder signals low guardianship which increases offending.
 
-* Disorder signals low guardianship which increases offending.
+* C, E: Disorder and crime constrain social relations and impede control.
 
-* Disorder constrains social relations which impedes control.
-
-* Social control inhibits both disorder and crime.
+* B, D: Social control inhibits both disorder and crime.
 ]
 
 .centernote[
-*Reciprocal relationship (B,C) defies observational tests.*
+*Reciprocal relationships (B,C; E,D) defy observational tests.*
 ]
+
+---
+# Evidence
+
+Keizer, Lindenberg, and Steg (2008)
+
+Skogan (1990)
 
 
 
@@ -124,23 +129,36 @@ signalling low social control and (2) decreases social control by reducing willi
 
 # Collective Efficacy
 
-Sampson & Raudenbush (1999) contend that disorder and crime are both manifestations of low social control.
+Sampson & Raudenbush (1999) contend that disorder and crime are both manifestations of low collective efficacy---the capacity for informal social control.
 
 .pull-left60[
 ![Collective Efficacy](https://clanfear.github.io/SocSem_102618/img/collective_efficacy.svg)
 ]
 
 .pull-right40[
+* A: Disorder has no direct impact on crime.
 
-* Disorder and crime are products of low social control.
-
-* Disorder has no direct impact on crime or social control.
-
+* B, D: Disorder and crime are products of low social control, which is exogenous (C, E).
 ]
 
 .centernote[
-*(A,C) represent testable constraints on Broken Windows.*
+*(A,C,E) represent testable constraints on Broken Windows.*
 ]
+---
+# Evidence
+
+Sampson & Raudenbush (1999)
+
+Effect of disorder on crime absent once controlling for collective efficacy.
+
+Controlled for Crime -> Collective Efficacy (E)
+
+Assumption no effect of Disorder -> Collective Efficacy (C)
+
+## Counterpoint
+
+Hipp (2016)
+Xu, Fiedler, and Flaming (2005)
 
 ---
 
@@ -216,9 +234,9 @@ exp_df <- expand.grid(year = 2014:2017,
 
 ggplot(exp_df, aes(x=year, y=experiment, fill=factor(active))) + 
   xlab("") + ylab("") + ggtitle("Experiment Timeline", subtitle= "Number of trials") + 
-  geom_tile() + 
-    geom_text(size=6, color="#cbd3a3", hjust=0.5, aes(label=trials)) +
-  scale_fill_manual(values=c("2" = "#455f90", "1" = "#342c5c", "0" = "white")) +
+  geom_tile(color="white") + 
+    geom_text(size=8, color="#cbd3a3", hjust=0.5, aes(label=trials)) +
+  scale_fill_manual(values=c("2" = "#458490", "1" = "#342c5c", "0" = "white")) +
   theme_minimal(base_size=21) + 
   theme(legend.position = "none", axis.text.x = element_text(angle=45, hjust=1),
         axis.text.y = element_text(hjust = 0.5),
@@ -227,6 +245,68 @@ ggplot(exp_df, aes(x=year, y=experiment, fill=factor(active))) +
 
 ---
 
+```{r, echo=FALSE, warning=FALSE, message=FALSE, results='hide', dev="svg", fig.height=6.15}
+library(ggmap)
+library(sp)
+library(sf)
+library(stringr)
+library(maptools)
+
+`%!in%` <- Negate(`%in%`) 
+load("../../Experiments/Lost Letter/data/WA_tract_2010.RData")
+load("../../Experiments/Lost Letter/data/lost_letter_tract_122117.RData")
+
+letter_tracts <- c("00100", "01000", "10100", "10200", "10300", "10500", "10600", 
+                   "10800", "10900", "01100", "11101", "11102", "11200", "11300", 
+                   "11500", "11600", "11700", "11800", "11900", "01200", "12000", 
+                   "12100", "01300", "01400", "01500", "01600", "01800", "01900", 
+                   "00200", "02000", "02100", "02200", "02400", "02500", "02600", 
+                   "02700", "02800", "02900", "00300", "03000", "03100", "03200", 
+                   "03300", "03400", "03500", "03600", "03800", "03900", "04000", 
+                   "00401", "00402", "04100", "04200", "04400", "04500", "04600", 
+                   "04700", "04800", "04900", "00500", "05000", "05100", "05200", 
+                   "05301", "05400", "05600", "05700", "05801", "05802", "05900", 
+                   "00600", "06000", "06100", "06200", "06300", "06400", "06500", 
+                   "06600", "06700", "06800", "06900", "00700", "07000", "07100", 
+                   "07200", "07300", "07500", "07600", "07700", "07800", "07900", 
+                   "00800", "08001", "08002", "08100", "08200", "08300", "08400", 
+                   "08500", "08600", "08700", "08800", "08900", "00900", "09000", 
+                   "09100", "09200", "09400", "09500", "09600", "09701", "09702", 
+                   "09800", "09900", "10001", "10401", "10701", "11001", "11401", 
+                   "01701", "04301", "07401", "10002", "10402", "10702", "11002", 
+                   "11402", "01702", "04302", "07402")
+
+mailbox_tracts <- c("02700", "08900", "09200", "06800", "07500", "09100", "02800", 
+                   "00100", "10002", "10300", "10402", "10600", "02600", "05600", 
+                   "06100", "06300", "07402", "07800", "09000", "09701")
+  
+littering_tracts <- c("00100", "01701", "02600", "04700", "06800", "07100", "07500", 
+                      "08900", "09100", "09701", "10402", "11402")
+
+# KC_tract_2010 <- elide(WA_tract_2010[WA_tract_2010@data$NHGISCTY=="0330",], rotate=-16)
+KC_tract_2010 <- elide(WA_tract_2010[WA_tract_2010@data$COUNTYFP10=="033",], rotate=-16)
+seattle_tracts <- st_as_sf(KC_tract_2010[as.numeric(str_sub(KC_tract_2010@data$GISJOIN, -5,-1)) %in% 100:12100, "GISJOIN"]) %>%
+  mutate(tract = str_sub(GISJOIN, -5,-1)) %>%
+  mutate(mailbox = tract %in% mailbox_tracts,
+         littering = tract %in% littering_tracts,
+         lost_letter = tract %in% letter_tracts) %>%
+  mutate(Experiment = case_when(
+    mailbox==TRUE & littering==TRUE ~ "Mailbox, Littering",
+    mailbox==TRUE ~ "Mailbox",
+    littering==TRUE ~ "Littering",
+    lost_letter==FALSE ~ "No Letters",
+    TRUE ~ "Only Letters"
+  )) %>%
+  mutate(Experiment = forcats::fct_relevel(Experiment, "Mailbox, Littering", "Mailbox", "Littering", "Only Letters", "No Letters"))
+
+ggplot(seattle_tracts, aes(fill=Experiment)) + geom_sf(size=0.1, aes(color=Experiment)) + coord_sf(datum=NA) +
+  scale_fill_manual(values = c("Mailbox, Littering"="#342c5c", "Mailbox"="#458490", "Littering"="#905145", "No Letters"="grey", "Only Letters"="#cbd3a3")) +
+  scale_color_manual(values = c("Mailbox, Littering"="white", "Mailbox"="white", "Littering"="white", "No Letters"="white", "Only Letters"="white")) +
+  theme_minimal(base_size = 20)
+# ggsave("./Presentations/SocSem_102618/img/experiment_map.svg")
+```
+
+---
 # Lost Letter
 
 .pull-left[
@@ -244,6 +324,8 @@ ggplot(exp_df, aes(x=year, y=experiment, fill=factor(active))) +
 ---
 
 # Results
+
+
 
 ---
 
@@ -297,20 +379,20 @@ ggplot(exp_df, aes(x=year, y=experiment, fill=factor(active))) +
 
 # Acknowledgements
 
-This project was made possible by the participation of graduate student researchers and substantial grant funding.
+This project was made possible by the participation of graduate student researchers, grant funding, and institutional resources on campus.
 
 .pull-left[
 ### Researchers
-
-Terrence Pope
-
-Kate O'Neill
 
 Anquinette Barry
 
 Chris Hess
 
 John Leverso
+
+Kate O'Neill
+
+Terrence Pope
 ]
 
 .pull-right[
@@ -319,4 +401,25 @@ John Leverso
 National Science Foundation
 
 UW Royalty Research Fund
+
+### Support
+
+Center for Statistics and the Social Sciences
+
+Center for Studies in Demography and Ecology
 ]
+
+---
+# Appendix 1: Lost Letter
+
+
+Note on pilot: Original had letters to C.C. Lanfear, Seattle Coalition for Neighborhood Improvement, Friends of Seattle Police Union, Concerned Citizens Against Police Brutality.
+
+---
+# Appendix 2: Mailbox
+
+---
+# Appendix 3: Littering Intervention
+
+---
+# Appendix 4: SEM
