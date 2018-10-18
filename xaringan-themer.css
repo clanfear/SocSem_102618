@@ -240,3 +240,15 @@ body {
   margin: 0 auto;
   bottom: 3em;
 }
+.image-50 img {
+  width: 50%;
+}
+.image-75 img {
+  width: 75%;
+}
+.image-full img {
+  height: 480px;
+}
+.title-slide {
+  background-image: url(https://clanfear.github.io/SocSem_102618/img/UWSocBG1_white.svg), url(https://clanfear.github.io/SocSem_102618/img/title_slide_img.png);
+}

@@ -66,7 +66,11 @@ csss508css <- list(
         "left" = "0",
         "right" = "0",
         "margin" = "0 auto",
-        "bottom" = "3em")
+        "bottom" = "3em"),
+     ".image-50 img" = list("width" = "50%"),
+     ".image-75 img" = list("width" = "75%"),
+     ".image-full img" = list("height" = "480px"),
+     ".title-slide" = list("background-image" = "url(https://clanfear.github.io/SocSem_102618/img/UWSocBG1_white.svg), url(https://clanfear.github.io/SocSem_102618/img/title_slide_img.png)")
     )
 mono_accent(base_color = "#342c5c",
             code_font_google = google_font("Fira Mono"),
@@ -198,8 +202,9 @@ Or is this relationship spurious once collective efficacy is controlled, as sugg
 
 --
 
-To answer these questions, this study links field experiments embedded in Seattle neighborhoods 
-to data from the 2002-2003 Seattle Neighborhoods and Crime Survey.
+*To answer these questions, this study links field experiments embedded in Seattle neighborhoods to data from the 2002-2003 Seattle Neighborhoods and Crime Survey.*
+
+Note: Maybe say here SNCS is used for CE?
 
 ---
 
@@ -345,21 +350,45 @@ ggplot(seattle_tracts, aes(fill=Experiment)) + geom_sf(size=0.1, aes(color=Exper
 
 * Returning a lost letter is a low-risk pro-social intervention.
 
-* Varying the sender address allows for test of pro-social intervention sensitivity to contextual variation.
+* Varying the sender address tests sensitivity of prosocial intervention to context.
 ]
 
-We aren't testing any path at all here. We could use the original diagram and add a box for prosocial action and an association link with collective efficacy.
+Notes: We aren't testing any path at all here. We could use the original diagram and add a box for prosocial action and an association link with collective efficacy.
+ Maybe add to diagram the letter types as a box only connected to pro-social behavior
+ Personal, Friends of Black Lives Matter, American Neo-Nazi Party.
 
 ---
 
 # Results
 
+Notes:
 
+* Lost letter correlated with collective efficacy (r=XX)
+* Nazi letter returns uncorrelated with CE
+* Check results from past memo, there's more here
 
 ---
 
 # Mailbox Experiment
 
+.pull-left[
+.image-75[
+![](https://clanfear.github.io/SocSem_102618/img/id_treatment.jpg)
+]
+]
+
+.pull-right[
+Letter containing $5 left near mailbox for passersby to encounter
+
+IV: Litter and sign board with graffiti
+
+DV: Mail, theft, or inaction
+
+3,671 participants of 405 trials in 20 tracts
+]
+---
+
+# Mailbox Experiment
 .pull-left[
 ![Mailbox Experiment](https://clanfear.github.io/SocSem_102618/img/mailbox_experiment.svg)
 ]
@@ -372,11 +401,18 @@ We aren't testing any path at all here. We could use the original diagram and ad
 * Capture correlation between collective efficacy and norm violation.
 ]
 
-Notes: We really are testing A. But we're also testing something else: Does disorder impact prosocial behavior, which is a product of collective efficacy. Add a new box for that? We are also observationally testing D.
+Notes: We really are testing A. But we're also testing something else: Does disorder impact prosocial behavior, which is (in part) a product of collective efficacy. Add a new box for that? We are also observationally testing D.
 
 ---
 
 # Results
+
+
+Notes:
+
+* Disorder reduces mailing
+* Disorder doesn't reduce theft
+* Collective efficacy associated with lower theft
 
 ---
 
@@ -400,21 +436,36 @@ Notes: What we're actually testing here is disorder -> sanctioning (C), collecti
 
 # Results
 
+Notes:
+
+* CE does not predict sanctioning
+* Race/gender of confederate impacts sanctioning
+* CE predicts throwing litter away (low cost intervention)
+* Disorder reduces throwing away, odd effect on sanctioning
+
 ---
 
 # Litter Clean-Up
+
+.pull-left[
+.image-full[
+![](https://clanfear.github.io/SocSem_102618/img/littercam.jpg)
+]
+]
 
 Notes: Here we would be observationally testing collective efficacy -> disorder (B)... or would we be testing collective efficacy -> prosocial behavior -> disorder?
 
 ---
 
-.pull-left[
-![](https://clanfear.github.io/SocSem_102618/img/littercam.jpg)
-]
 
-.pull-right[
+
+.pull-left[
+.image-full[
 ![](https://clanfear.github.io/SocSem_102618/img/littercam_view.png)
 ]
+]
+
+Notes: Interesting result. Unable to continue experiment *because of collective efficacy* in affluent neighborhood.
 
 ---
 
