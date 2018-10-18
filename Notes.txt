@@ -12,21 +12,24 @@ project examines this controversy using mixed methods: field experiments embedde
 neighborhoods that are diverse on measures from the U.S. Census and the Seattle Neighborhoods
 and Crime Survey.
 
-Other things I am talking about:
-- Timeline and labor involved
-- Results
-- Prosocial behavior
+Ross:
 
-Things I could talk about but wasn't planning on:
-- SEM replications of S&R 1999
+1) Timeline and labor subordinate to main stuff
+2) SEM replication in appendix, sidenote on S&R
 
-Ross: "I would reserve timeline and labor to a subordinate position—discuss if there is time beyond the design and results.  The SEM replication may be too much.  I would map out the experiments and see if there is time left for the replication.  One possibility:  you probably want to review the S&R results early on, and then you could in passing say, we have tried to replicate this, but get different results (and you’re happy to talk about it in the discussion).  Then include a slide of more details for the end, if someone asks about it."
+Lindsey:
 
-Lindsey: "On slides where you have a path diagram and corresponding points on the right-side column, it would be helpful to list the path you are referring to with its letter label (when appropriate). It will help the viewer keep up with the presentation.
+1) Always use path label letters
+2) Make CE and social control clear: They're not exactly the same, but occupy same spot (mostly).
+3) Make sure broad research questions there
+4) Note geographic scope: Not just absolute, but relative to other projects
 
-Consider making the Social Control box on the Broken Windows and Collective Efficacy slides "Social Control/Collective Efficacy", since it might not be clear to newbies or non-crim people that they are referring to the same concept. When you are discussing the Collective Efficacy slide it may also be useful to introduce the concept of pro-social behavior (as it's the measure we use later to capture CE - I guess this suggestion gets into the complication that CE is a neighborhood level measure and sanctioning is an individual level behavior [which might be something useful to clarify at some point?). I also noticed
+To do:
 
-On the project structure and timeline page I think it might be helpful to include 1 or 2 broader research questions. You include the goal of the project and the formal hypotheses, but they come off as pretty technical. I think there are pretty clear research questions listed in the NSF grant? Also, on this slide it might be useful to include a geographic scope of the study (mostly to put it in context with other, similar projects and highlight that our's is the biggest of its kind). Alternatively, you could mention the number of neighborhoods on the specific experiment slides? I think it would be useful to situate our project in the overall landscape of these types of experiments and CE research. Maybe something along those lines would make sense at the very beginning?"
+1) Findings tables for experiments
+2) New experiment diagrams
+
+
 
 -----------------------------
 
@@ -35,15 +38,15 @@ Organization:
  - BWT
  -- Cited as basis for order maintenance policing
  -- Outline of theory and graphical description
- - BWT vs Social Disorg
+ - BWT vs CE
 
- Timeline and Labor
+ Project Structure
 
  Experiments: (Highlight paths or boxes on diagrams)
  - Lost Letter
  -- 2,938 letters, 8 each type (10 additional), 122 tracts
  -- Tabular Results
- -- Letter Drop Map for Effect
+ -- Letter Drop Maps for Effect
  - Mailbox
  -- 3,671 participants, (1870 C, 1801 T), 20 tracts
  -- Tabular Results
@@ -53,7 +56,9 @@ Organization:
  -- 568 trials, (268 C, 273 T), 12 tracts
  -- Tabular Results
  - LitterCam
+ -- Experiment failed due to high collective efficacy
  - Drive-By Littering, 24 drops
+ -- Mostly null results, would probably need very large sample size. Labor intensive. Ethically questionable.
 
  Funding Sources
  - NSF
@@ -61,10 +66,9 @@ Organization:
 
 
 Presentation Ideas:
- -
  - BG Image: Dropped letter?
  - Images
- -- Experiment Map
+ -- Experiment Map (Done)
  -- Letters
  -- Actual Drop
  -- Treatment Condition

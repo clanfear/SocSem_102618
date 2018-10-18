@@ -44,6 +44,9 @@ csss508css <- list(
      "h1, h2, h3" = list(
         "margin-top"=".25em", 
         "margin-bottom"=".25em"),
+     ".title-slide h1" = list(
+       "margin-top" = "-140px"
+     ),
      ".pull-left60" = list(
         "float" = "left",
         "width" = "58%" ),
@@ -402,6 +405,16 @@ Notes: What we're actually testing here is disorder -> sanctioning (C), collecti
 # Litter Clean-Up
 
 Notes: Here we would be observationally testing collective efficacy -> disorder (B)... or would we be testing collective efficacy -> prosocial behavior -> disorder?
+
+---
+
+.pull-left[
+![](https://clanfear.github.io/SocSem_102618/img/littercam.jpg)
+]
+
+.pull-right[
+![](https://clanfear.github.io/SocSem_102618/img/littercam_view.png)
+]
 
 ---
 
