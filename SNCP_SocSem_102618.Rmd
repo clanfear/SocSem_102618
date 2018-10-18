@@ -143,21 +143,21 @@ signalling low social control and (2) decreases social control by reducing willi
 .pull-left[
 [**Sampson & Raudenbush (1999)**](https://doi.org/10.1086/210356)
 
-* Neighborhood instrumental variables model
+* Instrumental variables model of Chicago neighborhoods
 
 * Effect of disorder on crime (A) absent once controlling for collective efficacy (B,D)
 
-* Control for effect of crime on collective efficacy (E), but assume no effect of disorder on collective efficacy (C)
+* Controlled for effect of crime on collective efficacy (E), but assumed no effect of disorder on collective efficacy (C)
 ]
 
 .pull-right[
 [**Keizer et al. (2008)**](https://doi.org/10.1126/science.1161405)
 
-* Multiple field experiments in single sites
+* Multiple field experiments in Grongingen, the Netherlands
 
 * Strong causal effect of disorder on norm violation (A)
 
-* No contextual controls
+* No contextual controls: Single site per experiment
 
 * No examination of indirect pathways or reciprocal effects
 ]
@@ -170,7 +170,7 @@ signalling low social control and (2) decreases social control by reducing willi
 
 # Prosocial Behavior
 
-Engaging in social control is a prosocial behavior
+Engaging in social control—such as sanctioning—is a prosocial behavior
 
 Collective efficacy also predicts non-sanctioning prosocial behavior—returning lost letters, providing CPR (Sampson, 2008)
 
@@ -185,15 +185,18 @@ Our goal is examination of the micro-processes that underlie Broken Windows and 
 --
 
 Does disorder increase norm-violations and crime as suggested by Broken Windows?
-
 * Does disorder also inhibit prosocial behavior?
 
 --
 
 Or is this relationship spurious once collective efficacy is controlled, as suggest by Sampson?
-
 * Is activation of collective efficacy conditional on offender characteristics?
 * Does disorder moderate collective efficacy?
+
+--
+
+To answer these questions, this study links field experiments embedded in Seattle neighborhoods 
+to data from the 2002-2003 Seattle Neighborhoods and Crime Survey.
 
 ---
 
@@ -203,12 +206,21 @@ class: inverse
 
 ---
 
-This study links field experiments embedded in Seattle neighborhoods 
-to data from the 2002-2003 Seattle Neighborhoods and Crime Survey.
+# Experiments and Goals:
 
---
+* Lost Letter
+   * Updated measure of collective efficacy
 
-The results represent the result of over 2000 person-hours of field work spread over four summers.
+* Mailbox Experiment
+   * Causal effect of disorder on norm violation (A)
+   
+* Littering Intervention
+   * Causal effect of disorder on sanctioning (B)
+   * Causal effect of interpersonal context on sanctioning (this is *not* E)
+   * Association of collective efficacy with sanctioning (is this actually C?)
+
+* Litter Clean-Up
+   * Assocation of collective efficacy with disorder removal (D)
 
 ---
 # The Experiments
@@ -333,6 +345,8 @@ ggplot(seattle_tracts, aes(fill=Experiment)) + geom_sf(size=0.1, aes(color=Exper
 * Varying the sender address allows for test of pro-social intervention sensitivity to contextual variation.
 ]
 
+We aren't testing any path at all here. We could use the original diagram and add a box for prosocial action and an association link with collective efficacy.
+
 ---
 
 # Results
@@ -355,6 +369,8 @@ ggplot(seattle_tracts, aes(fill=Experiment)) + geom_sf(size=0.1, aes(color=Exper
 * Capture correlation between collective efficacy and norm violation.
 ]
 
+Notes: We really are testing A. But we're also testing something else: Does disorder impact prosocial behavior, which is a product of collective efficacy. Add a new box for that? We are also observationally testing D.
+
 ---
 
 # Results
@@ -375,6 +391,8 @@ ggplot(seattle_tracts, aes(fill=Experiment)) + geom_sf(size=0.1, aes(color=Exper
 * Captures correlation between collective efficacy and sanctioning.
 ]
 
+Notes: What we're actually testing here is disorder -> sanctioning (C), collective efficacy -> sanctioning (not labeled), and interpersonal context -> sanctioning (not labeled). Need a new diagram.
+
 ---
 
 # Results
@@ -383,15 +401,27 @@ ggplot(seattle_tracts, aes(fill=Experiment)) + geom_sf(size=0.1, aes(color=Exper
 
 # Litter Clean-Up
 
+Notes: Here we would be observationally testing collective efficacy -> disorder (B)... or would we be testing collective efficacy -> prosocial behavior -> disorder?
+
 ---
 
 # Synthesis
+
+Notes:
+
+Disorder appears to attenuate prosocial action (mailbox experiment; what about littering?)
+
+Collective efficacy predicts low risk prosocial action (lost letter, mailbox? (check), litter pickup)
+
+CE predicts reduced theft, but not increased sanctioning
+
+Interpersonal context appears to matter; context in general appears to matter (disorder is contextual info)
 
 ---
 
 # Acknowledgements
 
-This project was made possible by the participation of graduate student researchers, grant funding, and institutional resources on campus.
+Our findings are the result of over 2000 person-hours of field work over four summers. This project was made possible by the participation of graduate student researchers, grant funding, and institutional resources on campus.
 
 .pull-left[
 ### Researchers
@@ -430,8 +460,14 @@ Note on pilot: Original had letters to C.C. Lanfear, Seattle Coalition for Neigh
 ---
 # Appendix 2: Mailbox
 
+Regression table?
+
 ---
 # Appendix 3: Littering Intervention
 
+Regression table?
+
 ---
 # Appendix 4: SEM
+
+Restrictied coefficient table, maybe model diagram with standardized values?
