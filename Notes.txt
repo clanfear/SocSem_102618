@@ -12,6 +12,17 @@ project examines this controversy using mixed methods: field experiments embedde
 neighborhoods that are diverse on measures from the U.S. Census and the Seattle Neighborhoods
 and Crime Survey.
 
+Questions:
+
+1) Do the theoretical diagrams and descriptions make sense?
+2) What should I talk about with prosocial behavior?
+  2.1) Note: Sanctioning is a manifestation of CE, and is a prosocial behavior
+  2.2) Do we want to talk about risk / cost-benefit in prosocial behavior?
+3) Check about research questions
+4) Experiment diagram: Are we looking at path C... or not?
+5) Mailbox: Prosocial behavior not shown... should we add it?
+6) Should I put talk about sampling in appendix or upfront?
+
 Ross:
 
 1) Timeline and labor subordinate to main stuff
@@ -28,7 +39,9 @@ To do:
 
 1) Findings tables for experiments
 2) New experiment diagrams
-
+3) Wording on BW slide for alienation from community social life; constraining social interaction
+4) Talk about sampling---appendix maybe?
+5) BRING ACTUAL MATERIALS AS PROPS!
 
 
 -----------------------------

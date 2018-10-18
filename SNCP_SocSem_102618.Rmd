@@ -1,6 +1,5 @@
 ---
-title: "SNCP Field Experiments"
-subtitle: "2014 - 2017"  
+title: "Disorder and Social Control"
 author: "Ross Matsueda<br>Chuck Lanfear<br>Lindsey Beach"
 date: 'Oct 26, 2018'
 output:
@@ -38,6 +37,7 @@ csss508css <- list(
         "border-radius" = "3px",
         "padding" = "2px"),
      ".small" = list("font-size" = "75%"),
+     ".smallish" = list("font-size" = "85%"),
      ".remark-code-line-highlighted" = list(
         "background-color" = "rgba(255,0,255,0.2)"),
      "sup" = list("font-size" = "14px"),
@@ -45,7 +45,7 @@ csss508css <- list(
         "margin-top"=".25em", 
         "margin-bottom"=".25em"),
      ".title-slide h1" = list(
-       "margin-top" = "-140px"
+       "margin-top" = "-180px"
      ),
      ".pull-left60" = list(
         "float" = "left",
@@ -70,7 +70,9 @@ csss508css <- list(
      ".image-50 img" = list("width" = "50%"),
      ".image-75 img" = list("width" = "75%"),
      ".image-full img" = list("height" = "480px"),
-     ".title-slide" = list("background-image" = "url(https://clanfear.github.io/SocSem_102618/img/UWSocBG1_white.svg), url(https://clanfear.github.io/SocSem_102618/img/title_slide_img.png)")
+     ".title-slide" = list("background-image" = "url(https://clanfear.github.io/SocSem_102618/img/UWSocBG1_white.svg), url(https://clanfear.github.io/SocSem_102618/img/title_slide_img.png)",
+                           "background-position" = "center center, center bottom",
+                           "background-size" = "contain, contain")
     )
 mono_accent(base_color = "#342c5c",
             code_font_google = google_font("Fira Mono"),
@@ -95,17 +97,22 @@ mono_accent(base_color = "#342c5c",
    
 4. Synthesis
 
+5. Appendix
+
 ---
 class: inverse
 
 # Theoretical Framework 
 
+### Neighborhood social control and crime
+
+
 ---
 
 # Broken Windows
 
-Wilson & Kelling (1982) describe a system where disorder (1) increases crime by 
-signalling low social control and (2) decreases social control by reducing willingness to use public spaces.
+[Wilson & Kelling (1982)](https://www.theatlantic.com/magazine/archive/1982/03/broken-windows/304465/) describe a system where community disorder (1) increases crime by 
+signalling low social control to offenders and (2) decreases social control by reducing willingness to use public spaces.
 
 .pull-left60[
 
@@ -129,7 +136,7 @@ signalling low social control and (2) decreases social control by reducing willi
 
 # Collective Efficacy
 
-[Sampson & Raudenbush (1999)](https://doi.org/10.1086/210356) contend that disorder and crime are both manifestations of low collective efficacy—the capacity for informal social control.
+[Sampson & Raudenbush (1999)](https://doi.org/10.1086/210356) contend that disorder and crime are both manifestations of low collective efficacy—the community's capacity for informal social control.
 
 .pull-left60[
 ![Collective Efficacy](https://clanfear.github.io/SocSem_102618/img/collective_efficacy_pretty.svg)
@@ -363,8 +370,8 @@ Notes: We aren't testing any path at all here. We could use the original diagram
 
 Notes:
 
-* Lost letter correlated with collective efficacy (r=XX)
-* Nazi letter returns uncorrelated with CE
+* Personal (0.346) and BLM (0.318) returns correlated with collective efficacy
+* Nazi letter returns uncorrelated with CE (.034)
 * Check results from past memo, there's more here
 
 ---
@@ -411,15 +418,33 @@ Notes: We really are testing A. But we're also testing something else: Does diso
 Notes:
 
 * Disorder reduces mailing
-* Disorder doesn't reduce theft
-* Collective efficacy associated with lower theft
+* Disorder doesn't increase theft, even in a single location
+* Collective efficacy associated with lower theft, but not more mailing
+* Maybe mention interaction effects?
 
 ---
 
 # Littering Intervention
 
 .pull-left[
-![Mailbox Experiment](https://clanfear.github.io/SocSem_102618/img/littering_intervention.svg)
+![Mailbox Experiment](https://clanfear.github.io/SocSem_102618/img/littering_intervention_1.svg)
+]
+
+.pull-right[
+* Test of direct effect of disorder on sanctioning.
+
+* Test of effect of norm violation context on sanctioning.
+
+* Captures correlation between collective efficacy and sanctioning.
+]
+
+Notes: What we're actually testing here is disorder -> sanctioning (C), collective efficacy -> sanctioning (not labeled), and interpersonal context -> sanctioning (not labeled). Need a new diagram.
+
+---
+# Littering Intervention
+
+.pull-left[
+![Mailbox Experiment](https://clanfear.github.io/SocSem_102618/img/littering_intervention_2.svg)
 ]
 
 .pull-right[
@@ -455,9 +480,11 @@ Notes:
 
 Notes: Here we would be observationally testing collective efficacy -> disorder (B)... or would we be testing collective efficacy -> prosocial behavior -> disorder?
 
+Attempted to replace the experiment with drive-by littering but after 24 drops, null results
+
 ---
 
-
+# Results
 
 .pull-left[
 .image-full[
@@ -534,4 +561,8 @@ Regression table?
 ---
 # Appendix 4: SEM
 
-Restrictied coefficient table, maybe model diagram with standardized values?
+Restricted coefficient table, maybe model diagram with standardized values?
+
+Note that we're using a model with instruments, two time periods, can control for disorder feedback
+
+Looks like S&R if we omit things
