@@ -42,6 +42,18 @@ To do:
 3) Wording on BW slide for alienation from community social life; constraining social interaction
 4) Talk about sampling---appendix maybe?
 5) BRING ACTUAL MATERIALS AS PROPS!
+6) On CE slide, swap bullet points so mechanism is first
+7) On Framework: Our focus is crime, crime always has risk, prosocial action does not always have risk but it is an underappreciated factor
+8) Key Lit: Don't privilege experiments, talk about external / internal validity
+  - Keizer can make strong causal claims, but their disorder is small scale
+  - Sampson & Raud can't make strong causal claim, but using real crime and disorder, which is what most are interested in... generalizable
+  - They trade off each other!
+9) Prosocial behavior: Note cost of action varies. Ultimate interest is antisocial action, but prosocial action is of interest and plays a role in the system of crime and social control
+10) Experiment Diagram: Smaller experiment names, same as nodes. More space.
+11) Litter Intervention: Crime is fixed, outcome is conditional on crime occurring
+12) Add vertical space to diagrams
+13) Highlight interventions. Maybe bolding?
+14) Mention sampling on map slide, maybe not even any text
 
 
 -----------------------------
