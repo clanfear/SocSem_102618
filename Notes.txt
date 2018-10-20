@@ -36,6 +36,8 @@ Lindsey:
 4) Note geographic scope: Not just absolute, but relative to other projects
 
 To do:
+- Reread memos
+-- Try to find lost letter elections stuff
 
 1) Findings tables for experiments
 2) New experiment diagrams
@@ -51,10 +53,10 @@ To do:
 9) Prosocial behavior: Note cost of action varies. Ultimate interest is antisocial action, but prosocial action is of interest and plays a role in the system of crime and social control
 10) Experiment Diagram: Smaller experiment names, same as nodes. More space.
 11) Litter Intervention: Crime is fixed, outcome is conditional on crime occurring
-12) Add vertical space to diagrams
+12) Add vertical space to diagrams; can probably extend 25%
 13) Highlight interventions. Maybe bolding?
 14) Mention sampling on map slide, maybe not even any text
-
+15) Be sure to note macro theories, but micro tests!
 
 -----------------------------
 

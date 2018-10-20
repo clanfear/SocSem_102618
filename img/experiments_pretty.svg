@@ -9,8 +9,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="828.00317"
-   height="483.05798"
+   width="680.3714"
+   height="456.79324"
    version="1.1"
    id="svg413"
    sodipodi:docname="experiments_pretty.svg"
@@ -56,9 +56,9 @@
      id="namedview415"
      showgrid="false"
      inkscape:snap-text-baseline="false"
-     inkscape:zoom="2.7424276"
-     inkscape:cx="312.75415"
-     inkscape:cy="223.76178"
+     inkscape:zoom="1.9391892"
+     inkscape:cx="492.03627"
+     inkscape:cy="233.87319"
      inkscape:window-x="-16"
      inkscape:window-y="-16"
      inkscape:window-maximized="1"
@@ -68,7 +68,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0" />
   <g
-     transform="translate(69.633776,-13.268579)"
+     transform="translate(39.371396,-16.292832)"
      lucid:page-tab-id="0_0"
      id="g411">
     <path
@@ -731,58 +731,60 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.33333206px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">C</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:Quattrocento;letter-spacing:0px;word-spacing:0px;fill:#458490;fill-opacity:1;stroke:none"
-       x="259.97604"
-       y="52.735245"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#458490;fill-opacity:1;stroke:none"
+       x="296.07547"
+       y="39.972832"
        id="text2750"><tspan
          sodipodi:role="line"
          id="tspan2748"
-         x="259.97604"
-         y="52.735245">Mailbox</tspan></text>
+         x="296.07547"
+         y="39.972832">Mailbox</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:Quattrocento;letter-spacing:0px;word-spacing:0px;fill:#905145;fill-opacity:1;stroke:none"
-       x="608.77277"
-       y="362.72049"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:30px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#905145;fill-opacity:1;stroke:none"
+       x="120.51923"
+       y="409.75909"
        id="text2754"><tspan
          sodipodi:role="line"
-         x="608.77277"
-         y="362.72049"
+         x="120.51923"
+         y="409.75909"
          id="tspan8004"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:0px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-         dy="20">Litter</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:30px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         dy="0">Litter</tspan><tspan
          sodipodi:role="line"
-         x="608.77277"
-         y="429.38715"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:0px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         x="120.51923"
+         y="439.75909"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:30px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
          id="tspan8008">Intervention</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:Quattrocento;letter-spacing:0px;word-spacing:0px;fill:#cbd3a3;fill-opacity:1;stroke:none"
-       x="230.27605"
-       y="474.62427"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#cbd3a3;fill-opacity:1;stroke:none"
+       x="284.68024"
+       y="472.73407"
        id="text2758"><tspan
          sodipodi:role="line"
          id="tspan2756"
-         x="230.27605"
-         y="474.62427">Lost Letter</tspan></text>
+         x="284.68024"
+         y="472.73407">Lost Letter</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:Quattrocento;letter-spacing:0px;word-spacing:0px;fill:#342c5c;fill-opacity:1;stroke:none"
-       x="42.486221"
-       y="261.90118"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:30px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#342c5c;fill-opacity:1;stroke:none"
+       x="27.900604"
+       y="280.49783"
        id="text2762"><tspan
          sodipodi:role="line"
-         id="tspan2760"
-         x="42.486221"
-         y="261.90118"
-         dy="20"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle">Litter</tspan><tspan
-         sodipodi:role="line"
-         x="42.486225"
-         y="328.56784"
+         x="27.900604"
+         y="280.49783"
          id="tspan8010"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle">Clean-Up</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:30px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"><tspan
+           dy="0"
+           id="tspan21026"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:30px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle">Litter</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="27.900604"
+         y="310.49783"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:30px;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         id="tspan21028">Clean-Up</tspan></text>
     <circle
        style="opacity:1;fill:none;fill-opacity:1;stroke:#342c5c;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path6473"
@@ -795,15 +797,9 @@
        cx="355.71237"
        cy="109.25452"
        r="24" />
-    <circle
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#905145;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path6473-3"
-       cx="535.84473"
-       cy="297.77362"
-       r="24" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:none;stroke:#cbd3a3;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#cbd3a3;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 283.68239,283.66627 H 436.12904 V 396.8422 H 283.68239 Z"
        id="path244-5" />
     <circle
@@ -814,31 +810,27 @@
        r="24" />
     <path
        style="fill:none;stroke:#342c5c;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 232.82852,249.27644 118.69606,274.80127"
+       d="M 232.82852,249.27644 90.505117,279.44868"
        id="path7994"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#cbd3a3;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 358.26483,396.22654 v 37.92261"
+       d="M 358.26483,396.22654 V 445.453"
        id="path7996"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#905145;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 557.72315,311.26532 44.48614,30.26515"
-       id="path7998"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;stroke:#458490;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 354.98307,84.458966 V 58.569494"
+       style="fill:#905145;fill-opacity:1;stroke:#458490;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 354.98307,84.458966 V 46.53636"
        id="path8000"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#905145;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 602.93857,434.14915 v 41.93365 c 0,9.3591 -6.56353,17.98893 -17.50274,18.23202 H 204.75121 c -9.84529,0.36464 -18.9613,-7.65745 -19.69058,-20.78451 V 325.12165"
-       id="path8002"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#905145;fill-opacity:1;stroke:#905145;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 174.67531,320.56987 -32.08836,63.0828"
+       id="path21030"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
