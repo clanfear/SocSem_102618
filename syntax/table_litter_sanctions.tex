@@ -1,0 +1,26 @@
+\documentclass{standalone}
+\usepackage[latin1]{inputenc}
+\usepackage{multirow}
+\usepackage{Sweave}
+\begin{document}
+\input{table_litter_sanctions-concordance}
+
+% Sanctions table
+\begin{tabular}{lccccc}
+\multicolumn{5}{l}{Litter Intervention: Sanctions}\\[-1.0ex] 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+          & Black  & White  & White  &   \\
+Condition & Male   &   Male &  Female & All\\
+\hline \\[-1.8ex] 
+Control   & 2          &     2      &         9 & 13\\
+          &\textit{.021}      &    \textit{.021}  &     .103 & \textit{.045} \\
+Treatment & 1          &     8      &         4 & 13\\
+          &\textit{.011}      &    \textit{.091}  &    \textit{.043} & \textit{.045}  \\
+Both      & 3          &    10      &        13 & 26 \\
+          &\textit{.016}      &   \textit{.052}        & .68      &  \textit{.045} \\
+\hline \\[-1.8ex]
+\end{tabular}
+
+
+\end{document}

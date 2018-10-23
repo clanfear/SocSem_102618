@@ -21,6 +21,9 @@ options(htmltools.dir.version = FALSE)
 library(xaringanthemer)
 library(dplyr)
 library(ggplot2)
+library(knitr)
+library(tidyr)
+library(forcats)
 
 csss508css <- list(
      ".hljs-tomorrow-night-bright .hljs" = list(
@@ -70,9 +73,32 @@ csss508css <- list(
      ".image-50 img" = list("width" = "50%"),
      ".image-75 img" = list("width" = "75%"),
      ".image-full img" = list("height" = "480px"),
+     ".image-center img" = list(
+       "display"="block",
+       "margin-left"="auto",
+       "margin-right"="auto"),
+     ".center table" = list("display" = "inline-block"),
      ".title-slide" = list("background-image" = "url(https://clanfear.github.io/SocSem_102618/img/UWSocBG1_white.svg), url(https://clanfear.github.io/SocSem_102618/img/title_slide_img.png)",
                            "background-position" = "center center, center bottom",
-                           "background-size" = "contain, contain")
+                           "background-size" = "contain, contain"),
+     ".remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even)" = list("background" = "#FFFFFF"),
+     ".remark-slide table th" = list("border-bottom" = "1px solid #000",
+                                     "border-top" = "4px double #000",
+                                     "text-align" = "center",
+                                     "font-weight" = "normal",
+                                     "font-style" ="italic"),
+     ".remark-slide table" = list("border-top" = "none",
+                                  "border-bottom" = "none",
+                                  "border-collapse" = "collapse"),
+     ".remark-slide table tr" = list(
+       "line-height" = "16px"
+     ),
+     ".remark-slide table td" = list(
+       "padding" = "4px",
+       "text-align" = "center"
+     ),
+     "strong" = list("color" = "#905145"),
+     ".table-title" = list("font-size" = "115%")
     )
 mono_accent(base_color = "#342c5c",
             code_font_google = google_font("Fira Mono"),
@@ -366,13 +392,57 @@ Notes: We aren't testing any path at all here. We could use the original diagram
 
 ---
 
+
 # Results
+
+<table style="width:70%">
+  <tr>
+    <td style="font-size:115%" colspan="5">Lost Letter: Returned Letters</td>
+  </tr>
+  <tr>
+    <th>Return Rate</th>
+    <th>Mean</th>
+    <th>Min</th>
+    <th>Max</th>
+    <th>Corr(CE)</th>
+  </tr>
+  <tr>
+    <td>Personal</td>
+    <td>.793</td>
+    <td>.375</td>
+    <td>1.000</td>
+    <td>.346</td>  
+  </tr>
+  <tr>
+    <td>BLM	</td>
+    <td>.711</td>
+    <td>.250</td>
+    <td>1.000</td>
+    <td>.318</td> 
+  </tr>
+  <tr>
+    <td>Nazi</td>
+    <td>.240</td>
+    <td>.000</td>
+    <td>.625</td>
+    <td><strong>.034</strong></td>
+  </tr>
+  <tr>
+    <td>All Letters</td>
+    <td>.581</td>
+    <td>.375</td>
+    <td>.833</td>
+    <td>.340</td>
+  </tr>
+</table>
 
 Notes:
 
 * Personal (0.346) and BLM (0.318) returns correlated with collective efficacy
 * Nazi letter returns uncorrelated with CE (.034)
-* Check results from past memo, there's more here
+* "This model indicates there is a positive relationship between collective efficacy and letter return rates for
+BLM and personal letters, however the effect is almost completely negated for Nazi letters. BLM letters are
+statistically significantly less likely to be mailed than personal letters once controlling for collective efficacy.""
 
 ---
 
@@ -414,6 +484,58 @@ Notes: We really are testing A. But we're also testing something else: Does diso
 
 # Results
 
+
+<table style="width:70%">
+  <tr>
+    <td style="font-size:115%" colspan="5">Mailbox: Participant Actions</td>
+  </tr>
+  <tr>
+    <th>Condition</th>
+    <th>Walk-By</th>
+    <th>Mail</th>
+    <th>Theft</th>
+    <th>Sum</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Control</td>
+    <td>1629</td>
+    <td>208</td>
+    <td>33</td>
+    <td>1870</td>  
+  </tr>
+  <tr>
+    <td>.871</td>
+    <td><strong>.111</strong></td>
+    <td><strong>.018</strong></td>
+    <td>.509</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Treatment</td>
+    <td>1637</td>
+    <td>136</td>
+    <td>28</td>
+    <td>1801</td> 
+  </tr>
+  <tr>
+    <td>.909</td>
+    <td><strong>.076</strong></td>
+    <td><strong>.016</strong></td>
+    <td>.491</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Both</td>
+    <td>3266</td>
+    <td>344</td>
+    <td>61</td>
+    <td>3671</td>
+  </tr>
+  <tr>
+    <td>.890</td>
+    <td>.094</td>
+    <td>.017</td>
+    <td>1.000</td>
+  </tr>
+</table>
 
 Notes:
 
@@ -459,14 +581,142 @@ Notes: What we're actually testing here is disorder -> sanctioning (C), collecti
 
 ---
 
-# Results
+# Results: Sanctions
+
+<table style="width:70%">
+  <tr>
+    <td style="font-size:115%" colspan="5">Litter Intervention: Sanctions</td>
+  </tr>
+  <tr>
+    <th><br>Condition</th>
+    <th>Black<br>Male</th>
+    <th>White<br>Male</th>
+    <th>White<br>Female</th>
+    <th><br>All</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Control</td>
+    <td>2</td>
+    <td>2</td>
+    <td>9</td>
+    <td>13</td>  
+  </tr>
+  <tr>
+    <td>.021</td>
+    <td>.021</td>
+    <td>.103</td>
+    <td>.045</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Treatment</td>
+    <td>1</td>
+    <td>8</td>
+    <td>4</td>
+    <td>13</td> 
+  </tr>
+  <tr>
+    <td>.011</td>
+    <td>.091</td>
+    <td>.043</td>
+    <td>.045</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Both</td>
+    <td>3</td>
+    <td>10</td>
+    <td>13</td>
+    <td>26</td>
+  </tr>
+  <tr>
+    <td>.016</td>
+    <td>.052</td>
+    <td>.068</td>
+    <td>.045</td>
+  </tr>
+</table>
 
 Notes:
 
 * CE does not predict sanctioning
-* Race/gender of confederate impacts sanctioning
-* CE predicts throwing litter away (low cost intervention)
-* Disorder reduces throwing away, odd effect on sanctioning
+* Letter returns weakly predict sanctioning (p~.245)
+* Continuum of sanction prob
+* Disorder reduces throwing away
+* Disorder has only interactive effect on sanctioning: Reverse treatment effect for CL vs TP/LB
+
+---
+
+# Results: Throwing Away
+
+\multicolumn{5}{l}{Litter Intervention: Throw-Aways}\\[-1.0ex] 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+          & Black  & White  & White  &    \\
+Condition & Male   &   Male &  Female & All\\
+\hline \\[-1.8ex] 
+Control   & 3          &     7      &        7     &  17\\
+          &\textit{.032}      &    \textit{.079}  &      \textit{.079}  & \textit{.059} \\
+Treatment & 3          &     3      &        4     &  10 \\
+          &\textit{.032}      &    \textit{.032}  &      \textit{.043}  &  \textit{.035} \\
+Both      & 6          &    10      &        11    & 27 \\
+          &\textit{.032}      &    \textit{.052}  &       \textit{.057} & \textit{.047}   \\
+
+<table style="width:70%">
+  <tr>
+    <td style="font-size:115%" colspan="5">Litter Intervention: Sanctions</td>
+  </tr>
+  <tr>
+    <th><br>Condition</th>
+    <th>Black<br>Male</th>
+    <th>White<br>Male</th>
+    <th>White<br>Female</th>
+    <th><br>All</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Control</td>
+    <td>2</td>
+    <td>2</td>
+    <td>9</td>
+    <td>13</td>  
+  </tr>
+  <tr>
+    <td>.021</td>
+    <td>.021</td>
+    <td>.103</td>
+    <td>.045</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Treatment</td>
+    <td>1</td>
+    <td>8</td>
+    <td>4</td>
+    <td>13</td> 
+  </tr>
+  <tr>
+    <td>.011</td>
+    <td>.091</td>
+    <td>.043</td>
+    <td>.045</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Both</td>
+    <td>3</td>
+    <td>10</td>
+    <td>13</td>
+    <td>26</td>
+  </tr>
+  <tr>
+    <td>.016</td>
+    <td>.052</td>
+    <td>.068</td>
+    <td>.045</td>
+  </tr>
+</table>
+
+
+Notes: 
+
+* CE does not predict throwing away
+* Disorder reduces throwing away
 
 ---
 

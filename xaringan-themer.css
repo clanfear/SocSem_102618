@@ -252,8 +252,44 @@ body {
 .image-full img {
   height: 480px;
 }
+.image-center img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center table {
+  display: inline-block;
+}
 .title-slide {
   background-image: url(https://clanfear.github.io/SocSem_102618/img/UWSocBG1_white.svg), url(https://clanfear.github.io/SocSem_102618/img/title_slide_img.png);
   background-position: center center, center bottom;
   background-size: contain, contain;
+}
+.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) {
+  background: #FFFFFF;
+}
+.remark-slide table th {
+  border-bottom: 1px solid #000;
+  border-top: 4px double #000;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+}
+.remark-slide table {
+  border-top: none;
+  border-bottom: none;
+  border-collapse: collapse;
+}
+.remark-slide table tr {
+  line-height: 16px;
+}
+.remark-slide table td {
+  padding: 4px;
+  text-align: center;
+}
+strong {
+  color: #905145;
+}
+.table-title {
+  font-size: 115%;
 }

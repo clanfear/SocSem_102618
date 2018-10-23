@@ -1,0 +1,31 @@
+\documentclass{standalone}
+\usepackage[latin1]{inputenc}
+\usepackage{multirow}
+\usepackage{xcolor}
+\definecolor{colred}{HTML}{905145}
+\usepackage{Sweave}
+\begin{document}
+\input{table_lost_letter-concordance}
+\color[HTML]{342C5C}
+
+
+% Lost Letter Table
+\centering
+
+\color[HTML]{342C5C}
+
+\begin{tabular}{lccccc}
+\multicolumn{5}{l}{Lost Letter: Returned Letters}\\[-1.0ex] 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Return Rate       & Mean    & Min    & Max    & Corr(CE) \\
+\hline \\[-1.8ex] 
+Personal	        & .793   & .375  & 1.000  & .346  \\
+BLM	              & .711   &	.250  & 1.000  & .318  \\
+Nazi              &	.240   &	.000  & .625  & \textcolor{colred}{\textbf{.034}}  \\
+All Letters       & .581   & .375  & .833  & .340  \\
+\hline \\[-1.8ex]
+\end{tabular}
+
+
+\end{document}

@@ -1,0 +1,132 @@
+\documentclass{article}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\usepackage[utf8]{inputenc}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+
+% Lost Letter Table
+\begin{table}[!htbp]
+\centering
+\caption{Letter Returns}
+\begin{tabular}{lccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Return Rate       & Mean    & Min    & Max    & Corr(CE) \\
+\hline \\[-1.8ex] 
+All Letters       & .581   & .375  & .833  & .340  \\
+Personal	        & .793   & .375  & 1.000  & .346  \\
+BLM	              & .711   &	.250  & 1.000  & .318  \\
+Nazi              &	.240   &	.000  & .625  & .034  \\
+\hline \\[-1.8ex]
+\end{tabular}
+\end{table}
+
+% Mailbox Table
+\begin{table}[!htbp]
+\centering
+\caption{Mailbox Actions}
+\begin{tabular}{lccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex]
+Condition & Walk-By  & Mail    & Theft   & Sum     \\
+\hline \\[-1.8ex] 
+    Control     &  1629   & 208     &  33     & 1870\\
+          &\textit{.871} &\textit{.111} &\textit{.018} &\textit{.509} \\
+    Treatment     &  1637   & 136     &  28     & 1801\\
+          &\textit{.909} &\textit{.076} &\textit{.016} &\textit{.491} \\
+Both       & 3266    & 344     & 61      & 3671  \\
+          &\textit{.890} &\textit{.094} &\textit{.017} &         \\
+          \hline \\[-1.8ex]
+\end{tabular}
+\end{table}
+
+% Sanctions table
+\begin{table}[!htbp]
+\centering
+\caption{Sanctions}
+\begin{tabular}{lccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+          & Black  & White  & White  &   \\
+Condition & Male   &   Male &  Female & All\\
+\hline \\[-1.8ex] 
+Control   & 2          &     2      &         9 & 13\\
+          &\textit{.021}      &    \textit{.021}  &     .103 & \textit{.045} \\
+Treatment & 1          &     8      &         4 & 13\\
+          &\textit{.011}      &    \textit{.091}  &    \textit{.043} & \textit{.045}  \\
+Both      & 3          &    10      &        13 & 26 \\
+          &\textit{.016}      &   \textit{.052}        & .68      &  \textit{.045} \\
+\hline \\[-1.8ex]
+\end{tabular}
+\end{table}
+
+% Throw-aways table
+\begin{table}[!htbp]
+\centering
+\caption{Throw-Aways}
+\begin{tabular}{lccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+          & Black  & White  & White  &    \\
+Condition & Male   &   Male &  Female & All\\
+\hline \\[-1.8ex] 
+Control   & 3          &     7      &        7     &  17\\
+          &\textit{.032}      &    \textit{.079}  &      \textit{.079}  & \textit{.059} \\
+Treatment & 3          &     3      &        4     &  10 \\
+          &\textit{.032}      &    \textit{.032}  &      \textit{.043}  &  \textit{.035} \\
+Both      & 6          &    10      &        11    & 27 \\
+          &\textit{.032}      &    \textit{.052}  &       \textit{.057} & \textit{.047}   \\
+\hline \\[-1.8ex]
+\end{tabular}
+\end{table}
+
+\end{document}

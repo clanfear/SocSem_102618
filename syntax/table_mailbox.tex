@@ -1,0 +1,31 @@
+\documentclass{standalone}
+\usepackage[latin1]{inputenc}
+\usepackage{multirow}
+\usepackage{xcolor}
+
+
+\definecolor{colred}{HTML}{905145}
+
+\usepackage{Sweave}
+\begin{document}
+\input{table_mailbox-concordance}
+\color[HTML]{342C5C}
+
+% Mailbox Table
+\begin{tabular}{lccccc}
+\multicolumn{5}{l}{Mailbox: Participant Actions}\\[-1.0ex] 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex]
+Condition & Walk-By  & Mail    & Theft   & Sum     \\
+\hline \\[-1.8ex] 
+    Control     &  1629   & 208     &  33     & 1870\\
+                &\textit{.871} &\textcolor{colred}{\textit{\textbf{.111}}} &\textit{.018} &\textit{.509} \\
+    Treatment   &  1637   & 136     &  28     & 1801\\
+                &\textit{.909} &\textcolor{colred}{\textit{\textbf{.076}}} &\textit{.016} &\textit{.491} \\
+    Both        & 3266    & 344     & 61      & 3671  \\
+                &\textit{.890} &\textit{.094} &\textit{.017} &         \\
+\hline \\[-1.8ex]
+\end{tabular}
+
+
+\end{document}

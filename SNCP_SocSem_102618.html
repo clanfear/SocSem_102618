@@ -211,13 +211,57 @@ Notes: We aren't testing any path at all here. We could use the original diagram
 
 ---
 
+
 # Results
+
+&lt;table style="width:70%"&gt;
+  &lt;tr&gt;
+    &lt;td style="font-size:115%" colspan="5"&gt;Lost Letter: Returned Letters&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Return Rate&lt;/th&gt;
+    &lt;th&gt;Mean&lt;/th&gt;
+    &lt;th&gt;Min&lt;/th&gt;
+    &lt;th&gt;Max&lt;/th&gt;
+    &lt;th&gt;Corr(CE)&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Personal&lt;/td&gt;
+    &lt;td&gt;.793&lt;/td&gt;
+    &lt;td&gt;.375&lt;/td&gt;
+    &lt;td&gt;1.000&lt;/td&gt;
+    &lt;td&gt;.346&lt;/td&gt;  
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;BLM	&lt;/td&gt;
+    &lt;td&gt;.711&lt;/td&gt;
+    &lt;td&gt;.250&lt;/td&gt;
+    &lt;td&gt;1.000&lt;/td&gt;
+    &lt;td&gt;.318&lt;/td&gt; 
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Nazi&lt;/td&gt;
+    &lt;td&gt;.240&lt;/td&gt;
+    &lt;td&gt;.000&lt;/td&gt;
+    &lt;td&gt;.625&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;.034&lt;/strong&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;All Letters&lt;/td&gt;
+    &lt;td&gt;.581&lt;/td&gt;
+    &lt;td&gt;.375&lt;/td&gt;
+    &lt;td&gt;.833&lt;/td&gt;
+    &lt;td&gt;.340&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
 
 Notes:
 
 * Personal (0.346) and BLM (0.318) returns correlated with collective efficacy
 * Nazi letter returns uncorrelated with CE (.034)
-* Check results from past memo, there's more here
+* "This model indicates there is a positive relationship between collective efficacy and letter return rates for
+BLM and personal letters, however the effect is almost completely negated for Nazi letters. BLM letters are
+statistically significantly less likely to be mailed than personal letters once controlling for collective efficacy.""
 
 ---
 
@@ -259,6 +303,58 @@ Notes: We really are testing A. But we're also testing something else: Does diso
 
 # Results
 
+
+&lt;table style="width:70%"&gt;
+  &lt;tr&gt;
+    &lt;td style="font-size:115%" colspan="5"&gt;Mailbox: Participant Actions&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Condition&lt;/th&gt;
+    &lt;th&gt;Walk-By&lt;/th&gt;
+    &lt;th&gt;Mail&lt;/th&gt;
+    &lt;th&gt;Theft&lt;/th&gt;
+    &lt;th&gt;Sum&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td rowspan="2"&gt;Control&lt;/td&gt;
+    &lt;td&gt;1629&lt;/td&gt;
+    &lt;td&gt;208&lt;/td&gt;
+    &lt;td&gt;33&lt;/td&gt;
+    &lt;td&gt;1870&lt;/td&gt;  
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;.871&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;.111&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;.018&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;.509&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td rowspan="2"&gt;Treatment&lt;/td&gt;
+    &lt;td&gt;1637&lt;/td&gt;
+    &lt;td&gt;136&lt;/td&gt;
+    &lt;td&gt;28&lt;/td&gt;
+    &lt;td&gt;1801&lt;/td&gt; 
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;.909&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;.076&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;strong&gt;.016&lt;/strong&gt;&lt;/td&gt;
+    &lt;td&gt;.491&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td rowspan="2"&gt;Both&lt;/td&gt;
+    &lt;td&gt;3266&lt;/td&gt;
+    &lt;td&gt;344&lt;/td&gt;
+    &lt;td&gt;61&lt;/td&gt;
+    &lt;td&gt;3671&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;.890&lt;/td&gt;
+    &lt;td&gt;.094&lt;/td&gt;
+    &lt;td&gt;.017&lt;/td&gt;
+    &lt;td&gt;1.000&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
 
 Notes:
 
@@ -304,14 +400,92 @@ Notes: What we're actually testing here is disorder -&gt; sanctioning (C), colle
 
 ---
 
-# Results
+# Results: Sanctions
+
+
+          
+
+&lt;table style="width:70%"&gt;
+  &lt;tr&gt;
+    &lt;td style="font-size:115%" colspan="5"&gt;Litter Intervention: Sanctions&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;&lt;br&gt;Condition&lt;/th&gt;
+    &lt;th&gt;Black&lt;br&gt;Male&lt;/th&gt;
+    &lt;th&gt;White&lt;br&gt;Male&lt;/th&gt;
+    &lt;th&gt;White&lt;br&gt;Female&lt;/th&gt;
+    &lt;th&gt;&lt;br&gt;All&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td rowspan="2"&gt;Control&lt;/td&gt;
+    &lt;td&gt;2&lt;/td&gt;
+    &lt;td&gt;2&lt;/td&gt;
+    &lt;td&gt;9&lt;/td&gt;
+    &lt;td&gt;13&lt;/td&gt;  
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;.021&lt;/td&gt;
+    &lt;td&gt;.021&lt;/td&gt;
+    &lt;td&gt;.103&lt;/td&gt;
+    &lt;td&gt;.045&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td rowspan="2"&gt;Treatment&lt;/td&gt;
+    &lt;td&gt;1&lt;/td&gt;
+    &lt;td&gt;8&lt;/td&gt;
+    &lt;td&gt;4&lt;/td&gt;
+    &lt;td&gt;13&lt;/td&gt; 
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;.011&lt;/td&gt;
+    &lt;td&gt;.091&lt;/td&gt;
+    &lt;td&gt;.043&lt;/td&gt;
+    &lt;td&gt;.045&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td rowspan="2"&gt;Both&lt;/td&gt;
+    &lt;td&gt;3&lt;/td&gt;
+    &lt;td&gt;10&lt;/td&gt;
+    &lt;td&gt;13&lt;/td&gt;
+    &lt;td&gt;26&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;.016&lt;/td&gt;
+    &lt;td&gt;.052&lt;/td&gt;
+    &lt;td&gt;.068&lt;/td&gt;
+    &lt;td&gt;.045&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
 
 Notes:
 
 * CE does not predict sanctioning
-* Race/gender of confederate impacts sanctioning
-* CE predicts throwing litter away (low cost intervention)
-* Disorder reduces throwing away, odd effect on sanctioning
+* Letter returns weakly predict sanctioning (p~.245)
+* Continuum of sanction prob
+* Disorder reduces throwing away
+* Disorder has only interactive effect on sanctioning: Reverse treatment effect for CL vs TP/LB
+
+---
+
+# Results: Throwing Away
+
+\multicolumn{5}{l}{Litter Intervention: Throw-Aways}\\[-1.0ex] 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+          &amp; Black  &amp; White  &amp; White  &amp;    \\
+Condition &amp; Male   &amp;   Male &amp;  Female &amp; All\\
+\hline \\[-1.8ex] 
+Control   &amp; 3          &amp;     7      &amp;        7     &amp;  17\\
+          &amp;\textit{.032}      &amp;    \textit{.079}  &amp;      \textit{.079}  &amp; \textit{.059} \\
+Treatment &amp; 3          &amp;     3      &amp;        4     &amp;  10 \\
+          &amp;\textit{.032}      &amp;    \textit{.032}  &amp;      \textit{.043}  &amp;  \textit{.035} \\
+Both      &amp; 6          &amp;    10      &amp;        11    &amp; 27 \\
+          &amp;\textit{.032}      &amp;    \textit{.052}  &amp;       \textit{.057} &amp; \textit{.047}   \\
+
+Notes: 
+
+* CE does not predict throwing away
+* Disorder reduces throwing away
 
 ---
 

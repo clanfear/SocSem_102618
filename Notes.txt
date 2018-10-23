@@ -57,6 +57,8 @@ To do:
 13) Highlight interventions. Maybe bolding?
 14) Mention sampling on map slide, maybe not even any text
 15) Be sure to note macro theories, but micro tests!
+16) Add picture from Nextdoor on littercam
+17) FInish sanction table
 
 -----------------------------
 

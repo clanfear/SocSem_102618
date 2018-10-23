@@ -1,0 +1,81 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\begin{document}
+
+% Lost Letter Table
+\begin{table}[!htbp]
+\centering
+\caption{Letter Returns}
+\begin{tabular}{lccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Return Rate       & Mean    & Min    & Max    & Corr(CE) \\
+\hline \\[-1.8ex] 
+All Letters       & .581   & .375  & .833  & .340  \\
+Personal	        & .793   & .375  & 1.000  & .346  \\
+BLM	              & .711   &	.250  & 1.000  & .318  \\
+Nazi              &	.240   &	.000  & .625  & .034  \\
+\hline \\[-1.8ex]
+\end{tabular}
+\end{table}
+
+% Mailbox Table
+\begin{table}[!htbp]
+\centering
+\caption{Mailbox Actions}
+\begin{tabular}{lccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex]
+Condition & Walk-By  & Mail    & Theft   & Sum     \\
+\hline \\[-1.8ex] 
+    Control     &  1629   & 208     &  33     & 1870\\
+          &\textit{.871} &\textit{.111} &\textit{.018} &\textit{.509} \\
+    Treatment     &  1637   & 136     &  28     & 1801\\
+          &\textit{.909} &\textit{.076} &\textit{.016} &\textit{.491} \\
+Both       & 3266    & 344     & 61      & 3671  \\
+          &\textit{.890} &\textit{.094} &\textit{.017} &         \\
+          \hline \\[-1.8ex]
+\end{tabular}
+\end{table}
+
+% Sanctions table
+\begin{table}[!htbp]
+\centering
+\caption{Sanctions}
+\begin{tabular}{lccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+          & Black  & White  & White  &   \\
+Condition & Male   &   Male &  Female & All\\
+\hline \\[-1.8ex] 
+Control   & 2          &     2      &         9 & 13\\
+          &\textit{.021}      &    \textit{.021}  &     .103 & \textit{.045} \\
+Treatment & 1          &     8      &         4 & 13\\
+          &\textit{.011}      &    \textit{.091}  &    \textit{.043} & \textit{.045}  \\
+Both      & 3          &    10      &        13 & 26 \\
+          &\textit{.016}      &   \textit{.052}        & .68      &  \textit{.045} \\
+\hline \\[-1.8ex]
+\end{tabular}
+\end{table}
+
+% Throw-aways table
+\begin{table}[!htbp]
+\centering
+\caption{Throw-Aways}
+\begin{tabular}{lccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+          & Black  & White  & White  &    \\
+Condition & Male   &   Male &  Female & All\\
+\hline \\[-1.8ex] 
+Control   & 3          &     7      &        7     &  17\\
+          &\textit{.032}      &    \textit{.079}  &      \textit{.079}  & \textit{.059} \\
+Treatment & 3          &     3      &        4     &  10 \\
+          &\textit{.032}      &    \textit{.032}  &      \textit{.043}  &  \textit{.035} \\
+Both      & 6          &    10      &        11    & 27 \\
+          &\textit{.032}      &    \textit{.052}  &       \textit{.057} & \textit{.047}   \\
+\hline \\[-1.8ex]
+\end{tabular}
+\end{table}
+
+\end{document}
