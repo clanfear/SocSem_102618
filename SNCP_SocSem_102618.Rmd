@@ -602,9 +602,9 @@ Notes: What we're actually testing here is disorder -> sanctioning (C), collecti
     <td>13</td>  
   </tr>
   <tr>
-    <td>.021</td>
-    <td>.021</td>
-    <td>.103</td>
+    <td><strong>.021</strong></td>
+    <td><strong>.021</strong></td>
+    <td><strong>.103</strong></td>
     <td>.045</td>
   </tr>
   <tr>
@@ -615,9 +615,9 @@ Notes: What we're actually testing here is disorder -> sanctioning (C), collecti
     <td>13</td> 
   </tr>
   <tr>
-    <td>.011</td>
-    <td>.091</td>
-    <td>.043</td>
+    <td><strong>.011</strong></td>
+    <td><strong>.091</strong></td>
+    <td><strong>.043</strong></td>
     <td>.045</td>
   </tr>
   <tr>
@@ -642,27 +642,16 @@ Notes:
 * Continuum of sanction prob
 * Disorder reduces throwing away
 * Disorder has only interactive effect on sanctioning: Reverse treatment effect for CL vs TP/LB
+* Lindsey received more aggressive sanctions
 
 ---
 
 # Results: Throwing Away
 
-\multicolumn{5}{l}{Litter Intervention: Throw-Aways}\\[-1.0ex] 
-\\[-1.8ex]\hline 
-\hline \\[-1.8ex] 
-          & Black  & White  & White  &    \\
-Condition & Male   &   Male &  Female & All\\
-\hline \\[-1.8ex] 
-Control   & 3          &     7      &        7     &  17\\
-          &\textit{.032}      &    \textit{.079}  &      \textit{.079}  & \textit{.059} \\
-Treatment & 3          &     3      &        4     &  10 \\
-          &\textit{.032}      &    \textit{.032}  &      \textit{.043}  &  \textit{.035} \\
-Both      & 6          &    10      &        11    & 27 \\
-          &\textit{.032}      &    \textit{.052}  &       \textit{.057} & \textit{.047}   \\
 
 <table style="width:70%">
   <tr>
-    <td style="font-size:115%" colspan="5">Litter Intervention: Sanctions</td>
+    <td style="font-size:115%" colspan="5">Litter Intervention: Throw-Aways</td>
   </tr>
   <tr>
     <th><br>Condition</th>
@@ -673,49 +662,48 @@ Both      & 6          &    10      &        11    & 27 \\
   </tr>
   <tr>
     <td rowspan="2">Control</td>
-    <td>2</td>
-    <td>2</td>
-    <td>9</td>
-    <td>13</td>  
+    <td>3</td>
+    <td>7</td>
+    <td>7</td>
+    <td>17</td>  
   </tr>
   <tr>
-    <td>.021</td>
-    <td>.021</td>
-    <td>.103</td>
-    <td>.045</td>
+    <td>.032</td>
+    <td>.079</td>
+    <td>.079</td>
+    <td>.059</td>
   </tr>
   <tr>
     <td rowspan="2">Treatment</td>
-    <td>1</td>
-    <td>8</td>
+    <td>3</td>
+    <td>3</td>
     <td>4</td>
-    <td>13</td> 
+    <td>10</td> 
   </tr>
   <tr>
-    <td>.011</td>
-    <td>.091</td>
+    <td>.032</td>
+    <td>.032</td>
     <td>.043</td>
-    <td>.045</td>
+    <td>.035</td>
   </tr>
   <tr>
     <td rowspan="2">Both</td>
-    <td>3</td>
+    <td>6</td>
     <td>10</td>
-    <td>13</td>
-    <td>26</td>
+    <td>11</td>
+    <td>27</td>
   </tr>
   <tr>
-    <td>.016</td>
+    <td>.032</td>
     <td>.052</td>
-    <td>.068</td>
-    <td>.045</td>
+    <td>.057</td>
+    <td>.047</td>
   </tr>
 </table>
 
-
 Notes: 
 
-* CE does not predict throwing away
+* CE / Letters do not predict throwing away
 * Disorder reduces throwing away
 
 ---
@@ -793,10 +781,8 @@ Center for Studies in Demography and Ecology
 ]
 
 ---
-# Appendix 1: Lost Letter
 
-
-Note on pilot: Original had letters to C.C. Lanfear, Seattle Coalition for Neighborhood Improvement, Friends of Seattle Police Union, Concerned Citizens Against Police Brutality.
+![](https://clanfear.github.io/SocSem_102618/img/letter_turnout.png)
 
 ---
 # Appendix 2: Mailbox
