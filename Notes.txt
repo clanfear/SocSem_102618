@@ -39,13 +39,8 @@ To do:
 - Reread memos
 -- Try to find lost letter elections stuff
 
-1) Findings tables for experiments
-2) New experiment diagrams
-3) Wording on BW slide for alienation from community social life; constraining social interaction
+3) Anonymize fiasco images
 4) Talk about sampling---appendix maybe?
-5) BRING ACTUAL MATERIALS AS PROPS!
-6) On CE slide, swap bullet points so mechanism is first
-7) On Framework: Our focus is crime, crime always has risk, prosocial action does not always have risk but it is an underappreciated factor
 8) Key Lit: Don't privilege experiments, talk about external / internal validity
   - Keizer can make strong causal claims, but their disorder is small scale
   - Sampson & Raud can't make strong causal claim, but using real crime and disorder, which is what most are interested in... generalizable
@@ -59,6 +54,9 @@ To do:
 15) Be sure to note macro theories, but micro tests!
 16) Add picture from Nextdoor on littercam
 17) FInish sanction table
+
+On Presentation Day:
+5) BRING ACTUAL MATERIALS AS PROPS!
 
 -----------------------------
 
