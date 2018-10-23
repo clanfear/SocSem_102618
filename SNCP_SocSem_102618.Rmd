@@ -82,7 +82,11 @@ csss508css <- list(
         "display"="block",
         "margin-left"="auto",
         "margin-right"="auto"),
-     ".image-full img" = list("height" = "480px"),
+     ".image-full img" = list(
+        "height" = "480px",
+        "display"="block",
+        "margin-left"="auto",
+        "margin-right"="auto"),
      ".image-center img" = list(
         "display"="block",
         "margin-left"="auto",
@@ -309,7 +313,7 @@ class: inverse
    * Assocation of collective efficacy with disorder removal (D)
 
 ---
-# The Experiments
+# Experiment Diagram
 
 ![Experiments](https://clanfear.github.io/SocSem_102618/img/experiments_pretty.svg)
 
@@ -425,6 +429,10 @@ ggplot(seattle_tracts, aes(fill=Experiment)) + geom_sf(size=0.1, aes(color=Exper
   theme_minimal(base_size = 20)
 # ggsave("./Presentations/SocSem_102618/img/experiment_map.svg")
 ```
+
+---
+class: inverse
+# The Experiments
 
 ---
 # Lost Letter: Method
@@ -583,7 +591,7 @@ We conducted 405 trials with 3,671 participants in 20 Seattle census tracts.
 
 ---
 
-# Mailbox Results
+# Mailbox: Results
 
 
 <table style="width:70%">
@@ -649,7 +657,7 @@ Key Findings:
 .footnote[[1] There is no positive relationship in even *one* location.]
 ---
 
-# Littering Intervention: Method
+## Littering Intervention: Method
 
 A confederate walks down the street and flagrantly litters near a trash can in view of passersby.
 
@@ -839,7 +847,7 @@ CL; 6/10 sanctions from men
 
 We also evaluated if our interventions impacted throwing away the dropped litter—a low risk, non-confrontational prosocial action.
 
-Key Findings 
+Key Findings:
 
 * Disorder treatment reduces throwing away—a low risk prosocial action
    * This effect may be conditional on confederate characteristics
@@ -858,11 +866,41 @@ Key Findings
 .pull-right[
 A variety of trash is dropped on a sidewalk.
 
+]
+
+---
+
+# Litter Clean-Up: Method
+
+.pull-left[
+.image-full[
+![](https://clanfear.github.io/SocSem_102618/img/littercam.jpg)
+]
+]
+
+.pull-right[
+A variety of trash is dropped on a sidewalk.
+
+A magazine rack with concealed camera and motion detector records when the litter is cleaned up and how many people pass by.
+]
+
+---
+
+# Litter Clean-Up: Method
+
+.pull-left[
+.image-full[
+![](https://clanfear.github.io/SocSem_102618/img/littercam_view.png)
+]
+]
+
+.pull-right[
+A variety of trash is dropped on a sidewalk.
+
 A magazine rack with concealed camera and motion detector records when the litter is cleaned up and how many people pass by.
    * This permits capturing the relationship between collective efficacy and time to remove disorder.
 
 
-An alternate magazine rack defaced by graffiti and stickers is swapped in to manipulate disorder.
 ]
 
 ---
@@ -907,7 +945,7 @@ The experiment was abandoned after a small number of trials.
 
 The experiment was abandoned after a small number of trials.
 
-In Ravenna, residents reported the magazine racks on Nextdoor as an "eyesore"
+In Ravenna, residents reported the magazine racks on Nextdoor as an "eyesore".
 
 --
 
@@ -920,6 +958,10 @@ Thus we were unable to continue experiment *because of collective efficacy* in a
 --
 
 In contrast, one rack was left *for an entire year* in Capitol Hill without issue.
+
+???
+
+Maybe talk about Coleman and zeal
 
 ---
 
@@ -974,6 +1016,9 @@ Center for Studies in Demography and Ecology
 ---
 # Appendix: Sampling
 
+.image-full[
+![](https://clanfear.github.io/SocSem_102618/img/sample_draw_littering.PNG)
+]
 
 ---
 
@@ -984,18 +1029,35 @@ Center for Studies in Demography and Ecology
 ---
 # Appendix: Mailbox
 
-Regression table?
 
----
-# Appendix: Littering Intervention
+.center[Two Mailbox Multinomial Models]
 
-Regression table?
+|                    |  Mail    |  Theft   |     Mail  |   Theft  | 
+|:------------------:|:--------:|:--------:|:---------:|:--------:|
+|  (Intercept)       | **-2.053** | 0.332    | **-1.467**  | -1.437   | 
+|                    | *(0.538)*  | *(1.170)*  |  *(0.579)*  | *(1.329)*  | 
+|  Treatment       | **-0.275** | -0.081   |**-0.263**   | -0.098   | 
+|                    | *(0.118)*  | *(0.261)*  |  *(0.119)*  | *(0.263)*  | 
+|  Coll. Eff.          |  0.265   | **-1.206** |   0.171   | -0.804   | 
+|                    | *(0.173)*  | *(0.396)*  |  *(0.181)*  | *(0.424)*  |
+|  Walk-by Rate   | **-0.564** | -**0.535** |  **-0.534** | **-0.429** | 
+|                    | *(0.063)*  | *(0.132)*  |  *(0.064)*  | *(0.133)*  |
+|  Male             |          |          |  -0.094   | **0.880**  | 
+|                    |          |          | *(0.117)*   | *(0.296)*  |
+|  Non-White         |          |          |  **-0.459** | 0.397    |
+|                    |          |          | *(0.144)*   | *(0.272)*  |
+|  In Group            |          |          |  **-0.876** | **-1.302** |
+|                    |          |          | *(0.161)*   | *(0.475)*  | 
 
 ---
 # Appendix: Structural Models
 
-Restricted coefficient table, maybe model diagram with standardized values?
+We replicated Sampson & Raudenbush (1999) but with an instrument for disorder to examine reciprocal effects.
+   * Disorder in 2002-2003 instrumented by 1990 disorder
+   * Collective Efficacy in 2002-2003 instrumented by 1990 social cohesion, reciprocated exchange, and intergenerational closure
 
-Note that we're using a model with instruments, two time periods, can control for disorder feedback
+Disorder predicts crime in both high and low crime neighborhoods.
 
-Looks like S&R if we omit things
+Collective efficacy only predicts crime in low crime neighborhoods.
+
+Disorder and collective efficacy have bidirectional negative relationship.
