@@ -199,32 +199,46 @@ signalling low social control to offenders and (2) decreases social control by r
 *A, C, and E represent testable constraints on Broken Windows.*
 ]
 ---
-# Key Literature
+# [Keizer, Lindenberg, & Steg (2008)](https://doi.org/10.1126/science.1161405)
 
-.pull-left[
-[**Sampson & Raudenbush (1999)**](https://doi.org/10.1086/210356)
+.pull-left60[
 
-* Models of crime, disorder, and collective efficacy in Chicago neighborhoods
-  * *High external validity*
+![Keizer](https://clanfear.github.io/SocSem_102618/img/keizer.svg)
 
-* Effect of disorder on crime (A) absent once controlling for collective efficacy (B,D)
-
-* Control crime impact on collective efficacy (E), but assume disorder effect on collective efficacy (C)
 ]
 
 .pull-right[
 [**Keizer et al. (2008)**](https://doi.org/10.1126/science.1161405)
 
-* Multiple field experiments on local disorder in Grongingen, the Netherlands
-   * *High internal validity*
-
 * Strong causal effect of disorder on multiple forms of norm violation (A)
 
 * No contextual controls or examination of indirect pathways and reciprocal effects
+
+* Multiple field experiments on local disorder in Grongingen, the Netherlands
+   * *High internal validity*
 ]
 
 .centernote[
 *How do we reconcile these results?*
+]
+---
+
+# [Sampson & Raudenbush (1999)](https://doi.org/10.1086/210356)
+
+.pull-left60[
+![Sampson & Raudenbush (1999)](https://clanfear.github.io/SocSem_102618/img/sampson.svg)
+]
+
+
+.pull-right[
+[
+
+* Effect of disorder on crime (A) absent once controlling for collective efficacy (B,D)
+
+* Control crime impact on collective efficacy (E), but assume disorder effect on collective efficacy (C)
+
+* Models of crime, disorder, and collective efficacy in Chicago neighborhoods
+  * *High external validity*
 ]
 
 ---
