@@ -247,7 +247,7 @@ Simultaneous equations of crime, disorder, and collective efficacy in Chicago ne
 .pull-right[
 * Effect of disorder on crime (A) absent once controlling for collective efficacy (B,D)
 
-* Control crime impact on collective efficacy (E), but assume no disorder feedback on collective efficacy (C)
+* Control for crime impact on collective efficacy (E), but assume no disorder feedback on collective efficacy (C)
 
 * High **external validity** using focal concepts: *Real* disorder and crime.
 ]
