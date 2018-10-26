@@ -1152,7 +1152,7 @@ class: inverse
 
 4\. Collective efficacy is associated with lower theft (C).
 * Unable to explore mechanism.
-* Possibly correlated with perceived *risk* of sanction.
+* Possibly correlated with perceived *risk* of sanction or population composition.
 ]
 
 ---
