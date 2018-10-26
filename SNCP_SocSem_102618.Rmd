@@ -212,7 +212,7 @@ class: inverse
 ---
 ## Keizer, Lindenberg, & Steg (2008)
 
-Manipulated disorder and observed norm violation using field experiments in Grongingen, the Netherlands. Diverse range of interventions show a robust relationship.
+Manipulated disorder and observed norm violation using field experiments in Grongingen, the Netherlands. Multiple interventions show a robust relationship.
 --
 
 .pull-left[
@@ -222,9 +222,9 @@ Manipulated disorder and observed norm violation using field experiments in Gron
 ]
 
 .pull-right[
-* Strong causal effect of disorder on multiple forms of norm violation (A)
+* Strong causal effect of disorder on multiple forms of norm violation (A).
 
-* Single sites in one city: No examination of context, indirect pathways, or reciprocal effects
+* Single sites in one city: No examination of context, indirect pathways, or reciprocal effects.
 
 * High **internal validity** from experimental design.
 ]
@@ -378,13 +378,13 @@ exp_df <- expand.grid(year = 2014:2017,
     experiment=="Litter\nClean-Up" & year==2017 ~ 1,
     TRUE ~ as.numeric(NA)
   ), trials = case_when(
-    experiment=="Mailbox" & year==2014 ~ 130,
-    experiment=="Mailbox" & year==2015 ~ 141,    
+    experiment=="Mailbox" & year==2014 ~ 132,
+    experiment=="Mailbox" & year==2015 ~ 41,    
     experiment=="Mailbox" & year==2016 ~ 104,
-    experiment=="Mailbox" & year==2017 ~ 114,
+    experiment=="Mailbox" & year==2017 ~ 128,
     experiment=="Lost Letter" & year==2015 ~ 432,
     experiment=="Lost Letter" & year==2016 ~ 2938,
-    experiment=="Litter\nIntervention" & year==2017 ~ 568,
+    experiment=="Litter\nIntervention" & year==2017 ~ 576,
     experiment=="Litter\nClean-Up" & year==2016 ~ 6,
     experiment=="Litter\nClean-Up" & year==2017 ~ 21,
     TRUE ~ as.numeric(NA)
@@ -763,7 +763,7 @@ Key Findings:
 
 * Disorder has no impact on theft.<sup>1</sup>
 
-.footnote[[1] There is no positive relationship in even *one* location.]
+.footnote[[1] There is no significant positive relationship in *any* location.]
 --
 
 * Disorder reduces the likelihood of mailing—resulting in the letter remaining on the ground longer.
@@ -836,7 +836,7 @@ We conducted 576 trials in 12 Seattle census tracts.
 
 * Norm-Violation is *fixed*—all relationships are conditional on the offense occurring.
 
-* Test of effect of interpersonal context of norm violation on sanctioning (L).
+* Test effect of interpersonal context of norm violation on sanctioning (L).
 ]
 
 ---
@@ -851,7 +851,7 @@ We conducted 576 trials in 12 Seattle census tracts.
 
 * Norm-Violation is *fixed*—all relationships are conditional on the offense occurring.
 
-* Test of effect of interpersonal context of norm violation on sanctioning (L).
+* Test effect of interpersonal context of norm violation on sanctioning (L).
 
 * Captures association between collective efficacy and sanctioning (M).
 ]
