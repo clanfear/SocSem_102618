@@ -1283,6 +1283,20 @@ CE predicts people being in groups
 CE predicts fewer men; maybe proxying employment?
 
 ---
+# LitterCam Disorder
+
+.image-full[
+![](https://clanfear.github.io/SocSem_102618/img/littercam_disorder.jpg)
+]
+
+---
+# LitterCam Equipment
+
+.image-full[
+![](https://clanfear.github.io/SocSem_102618/img/littercam_gear.jpg)
+]
+
+---
 # Litter Clean-Up: Alternative
 
 We supposed the speed of return of lost letters was correlated with clean-up time of trash.
@@ -1294,7 +1308,7 @@ As a pilot, in selected trats, 24 pieces of litter were dropped in the same loca
 Neither timing nor a binary measure of clean-up were found to be associated with either lost letter returns or overall collective efficacy.
 
 ---
-# Structural Models
+## Sampson & Raudenbush Replication
 
 We replicated Sampson & Raudenbush (1999) but with an instruments for disorder and collective efficacy from Miethe (1990) to examine reciprocal effects.
 
