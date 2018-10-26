@@ -160,6 +160,7 @@ Prosocial action does not always have risk but risk is an underappreciated eleme
 
 [Wilson & Kelling (1982)](https://www.theatlantic.com/magazine/archive/1982/03/broken-windows/304465/) describe a system where community disorder (1) increases crime by 
 signalling low social control to offenders and (2) decreases social control by reducing willingness to use public spaces.
+--
 
 .pull-left60[
 
@@ -184,6 +185,7 @@ signalling low social control to offenders and (2) decreases social control by r
 # Collective Efficacy
 
 [Sampson & Raudenbush (1999)](https://doi.org/10.1086/210356) contend that disorder and crime are both manifestations of low collective efficacy—the community's capacity for informal social control.
+--
 
 .pull-left60[
 ![Collective Efficacy](https://clanfear.github.io/SocSem_102618/img/collective_efficacy_pretty.svg)
@@ -196,12 +198,12 @@ signalling low social control to offenders and (2) decreases social control by r
 ]
 
 .centernote[
-*A, C, and E represent testable constraints on Broken Windows.*
+*A, B, and E represent testable constraints on Broken Windows.*
 ]
 
 ---
 class: inverse
-# Key Evidence
+# Key Studies
 
 ### [Keizer, Lindenberg, & Steg (2008)](https://doi.org/10.1126/science.1161405)
 
@@ -211,6 +213,7 @@ class: inverse
 ## Keizer, Lindenberg, & Steg (2008)
 
 Manipulated disorder and observed norm violation using field experiments in Grongingen, the Netherlands. Diverse range of interventions show a robust relationship.
+--
 
 .pull-left[
 
@@ -230,7 +233,8 @@ Manipulated disorder and observed norm violation using field experiments in Gron
 
 ## Sampson & Raudenbush (1999)
 
-Models of crime, disorder, and collective efficacy in Chicago neighborhoods, using survey-measured collective efficacy and a novel objective measure of disorder: Video of street segments.
+Models of crime, disorder, and collective efficacy in Chicago neighborhoods, using survey-measured collective efficacy and a novel objective measure of disorder: Video of block faces coded by researchers.
+--
 
 .pull-left[
 ![Sampson & Raudenbush (1999)](https://clanfear.github.io/SocSem_102618/img/sampson.svg)
@@ -269,7 +273,7 @@ Broken windows implies disorder attenuates prosocial behavior through *fear of c
 
 --
 
-Collective efficacy is related to many prosocial behaviors:<sup>1</sup>
+Collective efficacy predicts many prosocial behaviors:<sup>1</sup>
 * Returning lost letters
 * Voting
 * Providing CPR
@@ -289,7 +293,7 @@ Prosocial action does not always feature risk but *risks and costs of prosocial 
 
 # Research Questions
 
-Our goal is examination of the micro-processes that underlie Broken Windows and Collective Efficacy
+Our goal is testing the micro-level mechanisms that underlie Broken Windows and Collective Efficacy.
 
 --
 
@@ -298,7 +302,7 @@ Does disorder increase norm-violations and crime as suggested by Broken Windows?
 
 --
 
-Or is this relationship spurious once collective efficacy is controlled, as suggest by Sampson?
+Or is this relationship spurious once collective efficacy is controlled, as suggested by Sampson?
 * Is activation of collective efficacy conditional on context?
 * Does disorder moderate collective efficacy?
 
@@ -832,7 +836,7 @@ We conducted 576 trials in 12 Seattle census tracts.
 
 * Norm-Violation is *fixed*—all relationships are conditional on the offense occurring.
 
-* Test of effect of interpersonal context of norm violation on sanctioning (J).
+* Test of effect of interpersonal context of norm violation on sanctioning (L).
 ]
 
 ---
@@ -849,7 +853,7 @@ We conducted 576 trials in 12 Seattle census tracts.
 
 * Test of effect of interpersonal context of norm violation on sanctioning (L).
 
-* Captures association between collective efficacy and sanctioning (I).
+* Captures association between collective efficacy and sanctioning (M).
 ]
 
 ---
@@ -914,7 +918,7 @@ Key Findings:
    * Disorder *interacts* with confederate race/gender.
 
 --
-* Collective efficacy and letter returns did not predict sanctioning
+* Collective efficacy and letter returns did not predict sanctioning (M).
 
 --
 * Sanctioning varies widely by confederate in both *quantity* and *content*
@@ -992,9 +996,10 @@ We also evaluated if our interventions impacted throwing away the dropped litter
 Key Findings:
 
 * Disorder treatment reduces throwing away—a low risk prosocial action
-    * This effect also conditional on confederate characteristics
 
+    * This effect also conditional on confederate characteristics
 --
+
 * Collective efficacy and letter returns do not predict throwing away
 
 ---
@@ -1108,63 +1113,95 @@ Key Findings:
 Maybe talk about Coleman and zeal
 
 ---
-
-# Summary
-
----
-
-# Disorder
-
-.pull-left[
-![](https://clanfear.github.io/SocSem_102618/img/prosocial_behavior.svg)]
-]
-
-.pull-right[
-1. Disorder had no impact on theft (A).
-   * High statistical power compared to Keizer.
-
-2. Disorder appears to attenuate low-risk, low-cost prosocial actions—mailing letters, throwing away litter—and may impact sanctioning as well (B).
-   * Consistent with indirect Broken Windows pathway
-   * Possible feedback effect on collective efficacy (B)
-]
+class: inverse
+# Synthesis
 
 ---
 
-# Prosocial Behavior
+# Synthesis 1
 
 .pull-left[
-![](https://clanfear.github.io/SocSem_102618/img/prosocial_behavior.svg)]
+![](https://clanfear.github.io/SocSem_102618/img/prosocial_behavior.svg)
 ]
 
-
 .pull-right[
-3. Collective efficacy predicts some low-risk prosocial action—mailing lost letters—but not higher risk actions—sanctioning (C,D).
-   * Collective efficacy research should explore context of interventions.<sup>1</sup> 
-   * Not strong evidence against collective efficacy: Low power.
+1\.  No disorder effect on theft (A).
+   * Unable to replicate Keizer et al. (2008)
 
-4. Context matters for prosocial behavior.
-   * Target characteristics impact sanctioning
-   * Characteristics of letters impact mailing
+2\. Disorder attenuates low-risk, low-cost prosocial actions—mailing letters, throwing away litter—and possibly sanctioning as well (B).
+   * Consistent with indirect Broken Windows pathway.
    
+   * Suggests feedback effect on collective efficacy.
+]
+
+---
+
+# Synthesis 2
+
+.pull-left[
+![](https://clanfear.github.io/SocSem_102618/img/prosocial_behavior.svg)
+]
+
+
+.pull-right[
+3\. Collective efficacy predicts some low-risk prosocial action (H,K) but not higher risk actions—sanctioning.
+* Sanctioning is thought to be a key mechanism.
+* May have insufficient power to detect effect.
+
+
+4\. Collective efficacy is associated with lower theft (C).
+* Unable to explore mechanism.
+* Possibly correlated with perceived *risk* of sanction.
+]
+
+---
+
+# Synthesis 3
+
+.pull-left[
+![](https://clanfear.github.io/SocSem_102618/img/prosocial_behavior.svg)
+]
+
+
+.pull-right[
+5\. Context matters for prosocial behavior (I).
+   * Addresses of letters impact mailing.
+   * Target characteristics impact sanctioning.<sup>1</sup>
+   * Activation of collective efficacy is task and context specific.<sup>2</sup>
+
 .footnote[
-[1] Note that while separated here for analytical purposes, *disorder is a context* as well.
+[1] Sanctioning on the basis of race hardly seems "prosocial". See Lanfear, Beach, & Thomas (2018) (forthcoming).
+
+[2] See [St. Jean (2007)](https://www.press.uchicago.edu/ucp/books/book/chicago/P/bo5298963.html) and [Wickes et al. (2013)](https://www.ncbi.nlm.nih.gov/pubmed/23812906).
 ]
-
 ]
-
-
-
 ---
 
 # Prosocial Behavior
-### Cost and benefit
+### Future research
 
-5. This may suggest perceived costs—such as risk—are important but neglected considerations for neighborhood theories of crime.
-   * Collective efficacy is correlated with risk factors—such as retaliation for sanctions
-   * Disorder may be a signal for risks or other costs<sup>1</sup>
-   * Disorder may signal that interventions will have limited benefit
-   
-*We know relatively little about the activation of prosocial behavior*
+*We know relatively little about the activation of prosocial behavior, particularly sanctioning.*
+
+--
+
+This study suggests contexts of prosocial behavior are important but neglected considerations for neighborhood theories of crime.
+
+--
+
+   * Collective efficacy is correlated with the presence of risk factors—such as retaliation from the sanctioned.
+
+--
+
+   * Disorder may be a signal for risks or other costs.
+
+--
+
+   * Disorder may signal that interventions will have limited benefit.
+
+--
+
+   * Context may cause general statements of prosocial intentions to differ sharply from actual behavior (see [St. Jean (2007)](https://www.press.uchicago.edu/ucp/books/book/chicago/P/bo5298963.html)).
+
 
 
 
